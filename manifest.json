@@ -1,161 +1,171 @@
 {
-  "updated": "06/10/2025",
-  "milestones": [
+  "updated": "2025-10-06",
+  "progress": {
+    "learning": 45,
+    "projects": 20,
+    "backend": 10,
+    "flutter": 10,
+    "certifications": 0
+  },
+  "focus": {
+    "current": "Week 1: ML Foundations \u2014 Linear Regression",
+    "next": "Multivariate Regression",
+    "then": "Logistic Regression",
+    "security_prep_start": "27/10/2025"
+  },
+  "repositories": [
     {
-      "id": "ml-week1",
-      "title": "ML Week 1 complete",
-      "due": "06/10/2025",
-      "status": "done"
-    },
-    {
-      "id": "ml-multivariate",
-      "title": "Multivariate Regression",
-      "due": "10/10/2025",
-      "status": "in-progress"
-    },
-    {
-      "id": "ml-logistic",
-      "title": "Logistic Regression",
-      "due": "17/10/2025",
-      "status": "planned"
-    },
-    {
-      "id": "ml-foundations-finish",
-      "title": "Finish ML Foundations Specialization",
-      "due": "20/10/2025",
-      "status": "planned"
-    },
-
-    {
-      "id": "phishing-scaffold",
-      "title": "Phishing Classifier scaffold",
-      "due": "12/10/2025",
-      "status": "planned"
-    },
-    {
-      "id": "phishing-baseline-export",
-      "title": "Train baseline + export model",
-      "due": "18/10/2025",
-      "status": "planned"
-    },
-    {
-      "id": "secure-api-integrate-classifier",
-      "title": "Integrate classifier into Secure AI API",
-      "due": "24/10/2025",
-      "status": "planned"
-    },
-    {
-      "id": "rag-integration-scaffold",
-      "title": "RAG integration scaffold",
-      "due": "25/10/2025",
-      "status": "planned"
-    },
-
-    {
-      "id": "secure-api-stub",
-      "title": "Secure AI API stub up",
-      "due": "12/10/2025",
-      "status": "planned"
-    },
-    {
-      "id": "secure-api-docker-ci",
-      "title": "Add Docker + CI/CD",
-      "due": "28/10/2025",
-      "status": "planned"
-    },
-    {
-      "id": "secure-api-auth-rate-limit",
-      "title": "JWT auth + rate limiting",
-      "due": "04/11/2025",
-      "status": "planned"
-    },
-
-    {
-      "id": "flutter-iam-scaffold",
-      "title": "Flutter IAM package scaffold",
-      "due": "13/10/2025",
-      "status": "planned"
-    },
-    {
-      "id": "flutter-iam-oidc-store",
-      "title": "OIDC login + token store",
-      "due": "26/10/2025",
-      "status": "planned"
-    },
-    {
-      "id": "flutter-iam-interceptor-guards",
-      "title": "Dio AuthInterceptor + route guards",
-      "due": "31/10/2025",
-      "status": "planned"
-    },
-    {
-      "id": "api-showcase-consume-secure-api",
-      "title": "API Showcase uses Secure AI API",
-      "due": "05/11/2025",
-      "status": "planned"
-    },
-
-    {
-      "id": "security-plus-start",
-      "title": "Start CompTIA Security+ prep",
-      "due": "27/10/2025",
-      "status": "planned"
-    },
-    {
-      "id": "security-plus-complete-course",
-      "title": "Complete Security+ course content",
-      "due": "15/12/2025",
-      "status": "planned"
-    },
-    {
-      "id": "security-plus-exam",
-      "title": "Sit Security+ exam",
-      "due": "20/12/2025",
-      "status": "planned"
-    }
-  ],
-  "repos": [
-    {
-      "name": "ai-cyber-security-roadmap",
-      "url": "https://github.com/Krispy145/ai-cyber-security-roadmap",
+      "name": "ml-foundations",
+      "url": "https://github.com/Krispy145/ml-foundations",
+      "description": "Andrew Ng ML Specialization notes, notebooks, and cheat-sheets",
       "status": "active",
-      "tags": ["roadmap", "portfolio"]
-    },
-    {
-      "name": "ml-foundations-notebooks",
-      "url": "https://github.com/Krispy145/ml-foundations-notebooks",
-      "status": "active",
-      "tags": ["ml", "notebooks"]
+      "target": "17/10/2025"
     },
     {
       "name": "phishing-classifier",
       "url": "https://github.com/Krispy145/phishing-classifier",
+      "description": "ML fundamentals project using UCI Phishing dataset",
       "status": "planned",
-      "tags": ["ml", "classification", "security"]
+      "target": "12/10/2025"
     },
     {
       "name": "secure-ai-api",
       "url": "https://github.com/Krispy145/secure-ai-api",
+      "description": "FastAPI backend serving classifier and RAG endpoints with security best practices",
       "status": "planned",
-      "tags": ["fastapi", "docker", "mlops", "security"]
+      "target": "12/10/2025"
     },
     {
       "name": "ai-chat-rag",
-      "url": "https://github.com/Krispy145/ai-chat-rag",
+      "url": "https://github.com/Krispy145/ai_chat_rag",
+      "description": "Retrieval-Augmented Generation pipeline integrating LangChain and vector DB",
       "status": "scaffolded",
-      "tags": ["rag", "llm"]
-    },
-    {
-      "name": "api-showcase",
-      "url": "https://github.com/Krispy145/api-showcase",
-      "status": "active",
-      "tags": ["flutter", "bloc", "dio"]
+      "target": "25/10/2025"
     },
     {
       "name": "flutter-iam",
       "url": "https://github.com/Krispy145/flutter-iam",
+      "description": "Reusable Flutter package for IAM (Okta / Azure AD)",
       "status": "planned",
-      "tags": ["flutter", "auth", "oidc"]
+      "target": "13/10/2025"
+    },
+    {
+      "name": "api-showcase",
+      "url": "https://github.com/Krispy145/api_showcase",
+      "description": "Flutter API demo app (currently Pexels API, later Secure AI API)",
+      "status": "active",
+      "target": null
+    },
+    {
+      "name": "ai-cyber-security-roadmap",
+      "url": "https://github.com/Krispy145/ai-cyber-security-roadmap",
+      "description": "This roadmap tracker and manifest powering the portfolio",
+      "status": "active",
+      "target": null
     }
-  ]
+  ],
+  "milestones": {
+    "machine_learning": {
+      "completed": [
+        {
+          "title": "Create roadmap repo",
+          "date": "06/10/2025"
+        },
+        {
+          "title": "Complete Linear Regression",
+          "date": "06/10/2025"
+        }
+      ],
+      "pending": [
+        {
+          "title": "Complete Multivariate Regression",
+          "due": "10/10/2025"
+        },
+        {
+          "title": "Complete Logistic Regression",
+          "due": "17/10/2025"
+        },
+        {
+          "title": "Finish ML Foundations Specialization",
+          "due": "20/10/2025"
+        }
+      ]
+    },
+    "ai_projects": {
+      "pending": [
+        {
+          "title": "Scaffold Phishing Classifier",
+          "due": "12/10/2025"
+        },
+        {
+          "title": "Train and export baseline model",
+          "due": "18/10/2025"
+        },
+        {
+          "title": "Integrate classifier into Secure AI API",
+          "due": "24/10/2025"
+        },
+        {
+          "title": "Scaffold AI Chat (RAG) integration",
+          "due": "25/10/2025"
+        }
+      ]
+    },
+    "backend": {
+      "pending": [
+        {
+          "title": "Scaffold Secure AI API (stub)",
+          "due": "12/10/2025"
+        },
+        {
+          "title": "Add model + RAG routes",
+          "due": "24/10/2025"
+        },
+        {
+          "title": "Add Docker + CI/CD",
+          "due": "28/10/2025"
+        },
+        {
+          "title": "Implement JWT auth + rate limiting",
+          "due": "04/11/2025"
+        }
+      ]
+    },
+    "flutter": {
+      "pending": [
+        {
+          "title": "Scaffold Flutter IAM package",
+          "due": "13/10/2025"
+        },
+        {
+          "title": "Implement OIDC login + token store",
+          "due": "26/10/2025"
+        },
+        {
+          "title": "Add Dio AuthInterceptor + guards",
+          "due": "31/10/2025"
+        },
+        {
+          "title": "Update API Showcase (Flutter) to consume Secure AI API",
+          "due": "05/11/2025"
+        }
+      ]
+    },
+    "security_plus": {
+      "pending": [
+        {
+          "title": "Start CompTIA Security+ prep",
+          "due": "27/10/2025"
+        },
+        {
+          "title": "Complete course content",
+          "due": "15/12/2025"
+        },
+        {
+          "title": "Sit Security+ exam",
+          "due": "20/12/2025"
+        }
+      ]
+    }
+  }
 }
