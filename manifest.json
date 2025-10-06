@@ -1,0 +1,12 @@
+{
+  "updated": "2025-10-06",
+  "milestones": [
+    {"id":"ml-week1","title":"ML Week 1 complete","due":"2025-10-06","status":"done"},
+    {"id":"ml-multivariate","title":"Multivariate Regression","due":"2025-10-08","status":"in-progress"},
+    {"id":"ml-logistic","title":"Logistic Regression","due":"2025-10-12","status":"planned"},
+    {"id":"phishing-scaffold","title":"Phishing Classifier scaffold","due":"2025-10-11","status":"planned"},
+    {"id":"secure-api-stub","title":"Secure AI API stub up","due":"2025-10-12","status":"planned"},
+    {"id":"flutter-iam-scaffold","title":"Flutter IAM package scaffold","due":"2025-10-13","status":"planned"},
+    {"id":"security-plus-start","title":"Start Security+ prep","due":"2025-10-20","status":"planned"}
+  ]
+}
