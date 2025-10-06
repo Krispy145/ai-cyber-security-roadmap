@@ -1,12 +1,161 @@
 {
-  "updated": "2025-10-06",
+  "updated": "06/10/2025",
   "milestones": [
-    {"id":"ml-week1","title":"ML Week 1 complete","due":"2025-10-06","status":"done"},
-    {"id":"ml-multivariate","title":"Multivariate Regression","due":"2025-10-08","status":"in-progress"},
-    {"id":"ml-logistic","title":"Logistic Regression","due":"2025-10-12","status":"planned"},
-    {"id":"phishing-scaffold","title":"Phishing Classifier scaffold","due":"2025-10-11","status":"planned"},
-    {"id":"secure-api-stub","title":"Secure AI API stub up","due":"2025-10-12","status":"planned"},
-    {"id":"flutter-iam-scaffold","title":"Flutter IAM package scaffold","due":"2025-10-13","status":"planned"},
-    {"id":"security-plus-start","title":"Start Security+ prep","due":"2025-10-20","status":"planned"}
+    {
+      "id": "ml-week1",
+      "title": "ML Week 1 complete",
+      "due": "06/10/2025",
+      "status": "done"
+    },
+    {
+      "id": "ml-multivariate",
+      "title": "Multivariate Regression",
+      "due": "10/10/2025",
+      "status": "in-progress"
+    },
+    {
+      "id": "ml-logistic",
+      "title": "Logistic Regression",
+      "due": "17/10/2025",
+      "status": "planned"
+    },
+    {
+      "id": "ml-foundations-finish",
+      "title": "Finish ML Foundations Specialization",
+      "due": "20/10/2025",
+      "status": "planned"
+    },
+
+    {
+      "id": "phishing-scaffold",
+      "title": "Phishing Classifier scaffold",
+      "due": "12/10/2025",
+      "status": "planned"
+    },
+    {
+      "id": "phishing-baseline-export",
+      "title": "Train baseline + export model",
+      "due": "18/10/2025",
+      "status": "planned"
+    },
+    {
+      "id": "secure-api-integrate-classifier",
+      "title": "Integrate classifier into Secure AI API",
+      "due": "24/10/2025",
+      "status": "planned"
+    },
+    {
+      "id": "rag-integration-scaffold",
+      "title": "RAG integration scaffold",
+      "due": "25/10/2025",
+      "status": "planned"
+    },
+
+    {
+      "id": "secure-api-stub",
+      "title": "Secure AI API stub up",
+      "due": "12/10/2025",
+      "status": "planned"
+    },
+    {
+      "id": "secure-api-docker-ci",
+      "title": "Add Docker + CI/CD",
+      "due": "28/10/2025",
+      "status": "planned"
+    },
+    {
+      "id": "secure-api-auth-rate-limit",
+      "title": "JWT auth + rate limiting",
+      "due": "04/11/2025",
+      "status": "planned"
+    },
+
+    {
+      "id": "flutter-iam-scaffold",
+      "title": "Flutter IAM package scaffold",
+      "due": "13/10/2025",
+      "status": "planned"
+    },
+    {
+      "id": "flutter-iam-oidc-store",
+      "title": "OIDC login + token store",
+      "due": "26/10/2025",
+      "status": "planned"
+    },
+    {
+      "id": "flutter-iam-interceptor-guards",
+      "title": "Dio AuthInterceptor + route guards",
+      "due": "31/10/2025",
+      "status": "planned"
+    },
+    {
+      "id": "api-showcase-consume-secure-api",
+      "title": "API Showcase uses Secure AI API",
+      "due": "05/11/2025",
+      "status": "planned"
+    },
+
+    {
+      "id": "security-plus-start",
+      "title": "Start CompTIA Security+ prep",
+      "due": "27/10/2025",
+      "status": "planned"
+    },
+    {
+      "id": "security-plus-complete-course",
+      "title": "Complete Security+ course content",
+      "due": "15/12/2025",
+      "status": "planned"
+    },
+    {
+      "id": "security-plus-exam",
+      "title": "Sit Security+ exam",
+      "due": "20/12/2025",
+      "status": "planned"
+    }
+  ],
+  "repos": [
+    {
+      "name": "ai-cyber-security-roadmap",
+      "url": "https://github.com/Krispy145/ai-cyber-security-roadmap",
+      "status": "active",
+      "tags": ["roadmap", "portfolio"]
+    },
+    {
+      "name": "ml-foundations-notebooks",
+      "url": "https://github.com/Krispy145/ml-foundations-notebooks",
+      "status": "active",
+      "tags": ["ml", "notebooks"]
+    },
+    {
+      "name": "phishing-classifier",
+      "url": "https://github.com/Krispy145/phishing-classifier",
+      "status": "planned",
+      "tags": ["ml", "classification", "security"]
+    },
+    {
+      "name": "secure-ai-api",
+      "url": "https://github.com/Krispy145/secure-ai-api",
+      "status": "planned",
+      "tags": ["fastapi", "docker", "mlops", "security"]
+    },
+    {
+      "name": "ai-chat-rag",
+      "url": "https://github.com/Krispy145/ai-chat-rag",
+      "status": "scaffolded",
+      "tags": ["rag", "llm"]
+    },
+    {
+      "name": "api-showcase",
+      "url": "https://github.com/Krispy145/api-showcase",
+      "status": "active",
+      "tags": ["flutter", "bloc", "dio"]
+    },
+    {
+      "name": "flutter-iam",
+      "url": "https://github.com/Krispy145/flutter-iam",
+      "status": "planned",
+      "tags": ["flutter", "auth", "oidc"]
+    }
   ]
 }
