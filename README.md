@@ -20,7 +20,7 @@ I’m keeping this repository updated so recruiters, collaborators, and peers ca
 
 | Repository                                                                            | Description                                                                       | Status              | Target     |
 | ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------- | ---------- |
-| [`ml-foundations-notebooks`](https://github.com/Krispy145/ml-foundations)             | Andrew Ng ML Specialization notes, notebooks, and cheat-sheets                    | ✅ Active           | 17/10/2025 |
+| [`ml-foundations`](https://github.com/Krispy145/ml-foundations)                       | Andrew Ng ML Specialization notes, notebooks, and cheat-sheets                    | ✅ Active           | 17/10/2025 |
 | [`phishing-classifier`](https://github.com/Krispy145/phishing-classifier)             | ML fundamentals project using UCI Phishing dataset                                | 🧩 Scaffold planned | 12/10/2025 |
 | [`secure-ai-api`](https://github.com/Krispy145/secure-ai-api)                         | FastAPI backend serving classifier and RAG endpoints with security best practices | 🔐 Stub planned     | 12/10/2025 |
 | [`ai-chat-rag`](https://github.com/Krispy145/ai-chat-rag)                             | Retrieval-Augmented Generation pipeline integrating LangChain and vector DB       | 🧠 Scaffolded       | 25/10/2025 |
