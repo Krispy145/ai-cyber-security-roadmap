@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+cd "$REPO_ROOT"
+
+echo "→ Validating manifest.json..."
+python3 scripts/validate_manifest.py
+
+echo "→ Checking README generation..."
+python3 scripts/manifest2readme.py
+
+if ! git diff --quiet -- README.md; then
+  echo "✖ README.md needs to be updated from manifest."
+  echo "Run: python3 scripts/manifest2readme.py && git add README.md"
+  exit 1
+fi
+
+echo "✓ Pre-commit checks passed."
