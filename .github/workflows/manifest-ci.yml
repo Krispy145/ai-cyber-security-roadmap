@@ -24,10 +24,13 @@ jobs:
       - name: Generate README from manifest
         run: python3 scripts/manifest2readme.py
 
-      - name: Ensure README is committed
+      - name: Update repository READMEs
+        run: python3 scripts/update_readmes.py
+
+      - name: Ensure READMEs are committed
         run: |
-          if ! git diff --quiet -- README.md; then
-            echo "::error::README.md is out of date. Run python3 scripts/manifest2readme.py and commit the result."
-            git --no-pager diff -- README.md | cat
+          if ! git diff --quiet; then
+            echo "::error::README files are out of date. Run python3 scripts/update_readmes.py and commit the result."
+            git --no-pager diff | cat
             exit 1
           fi

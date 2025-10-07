@@ -10,9 +10,14 @@ python3 scripts/validate_manifest.py
 echo "→ Checking README generation..."
 python3 scripts/manifest2readme.py
 
-if ! git diff --quiet -- README.md; then
-  echo "✖ README.md needs to be updated from manifest."
-  echo "Run: python3 scripts/manifest2readme.py && git add README.md"
+echo "→ Updating repository READMEs..."
+python3 scripts/update_readmes.py
+
+# Check if any README files were modified
+if ! git diff --quiet -- "**/README.md"; then
+  echo "✖ README files need to be updated from manifest."
+  echo "Run: python3 scripts/update_readmes.py && git add ."
+  git --no-pager diff -- "**/README.md"
   exit 1
 fi
 
