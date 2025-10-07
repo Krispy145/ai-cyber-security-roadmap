@@ -126,5 +126,276 @@
       "status": "active",
       "target": null
     }
-  ]
+  ],
+  "milestones": {
+    "machine_learning": {
+      "completed": [
+        {
+          "title": "Create roadmap repo",
+          "date": "06/10/2025"
+        },
+        {
+          "title": "Complete Linear Regression",
+          "date": "06/10/2025"
+        }
+      ],
+      "pending": [
+        {
+          "title": "Complete Multivariate Regression",
+          "due": "10/10/2025"
+        },
+        {
+          "title": "Complete Logistic Regression",
+          "due": "17/10/2025"
+        },
+        {
+          "title": "Finish ML Foundations Specialization",
+          "due": "20/10/2025"
+        }
+      ]
+    },
+    "ai_projects": {
+      "pending": [
+        {
+          "title": "Scaffold Phishing Classifier",
+          "due": "12/10/2025"
+        },
+        {
+          "title": "Train and export baseline model",
+          "due": "18/10/2025"
+        },
+        {
+          "title": "Integrate classifier into Secure AI API",
+          "due": "24/10/2025"
+        },
+        {
+          "title": "Scaffold AI Chat (RAG) integration",
+          "due": "25/10/2025"
+        }
+      ]
+    },
+    "backend": {
+      "pending": [
+        {
+          "title": "Scaffold Secure AI API (stub)",
+          "due": "12/10/2025"
+        },
+        {
+          "title": "Add model + RAG routes",
+          "due": "24/10/2025"
+        },
+        {
+          "title": "Add Docker + CI/CD",
+          "due": "28/10/2025"
+        },
+        {
+          "title": "Implement JWT auth + rate limiting",
+          "due": "04/11/2025"
+        }
+      ]
+    },
+    "flutter": {
+      "pending": [
+        {
+          "title": "Scaffold Flutter IAM package",
+          "due": "13/10/2025"
+        },
+        {
+          "title": "Implement OIDC login + token store",
+          "due": "26/10/2025"
+        },
+        {
+          "title": "Add Dio AuthInterceptor + guards",
+          "due": "31/10/2025"
+        },
+        {
+          "title": "Update API Showcase to consume Secure AI API",
+          "due": "05/11/2025"
+        }
+      ]
+    },
+    "security_plus": {
+      "pending": [
+        {
+          "title": "Start CompTIA Security+ prep",
+          "due": "27/10/2025"
+        },
+        {
+          "title": "Complete course content",
+          "due": "15/12/2025"
+        },
+        {
+          "title": "Sit Security+ exam",
+          "due": "20/12/2025"
+        }
+      ]
+    }
+  },
+  "milestones_flat": [
+    {
+      "id": "ml-01",
+      "title": "Create roadmap repo",
+      "category": "Machine Learning Foundations",
+      "status": "done",
+      "date": "06/10/2025",
+      "repo": "ai-cyber-security-roadmap"
+    },
+    {
+      "id": "ml-02",
+      "title": "Complete Linear Regression",
+      "category": "Machine Learning Foundations",
+      "status": "done",
+      "date": "06/10/2025",
+      "repo": "ml-foundations"
+    },
+    {
+      "id": "ml-03",
+      "title": "Complete Multivariate Regression",
+      "category": "Machine Learning Foundations",
+      "status": "in_progress",
+      "due": "10/10/2025",
+      "repo": "ml-foundations"
+    },
+    {
+      "id": "ml-04",
+      "title": "Complete Logistic Regression",
+      "category": "Machine Learning Foundations",
+      "status": "todo",
+      "due": "17/10/2025",
+      "repo": "ml-foundations"
+    },
+    {
+      "id": "ml-05",
+      "title": "Finish ML Foundations Specialization",
+      "category": "Machine Learning Foundations",
+      "status": "todo",
+      "due": "20/10/2025",
+      "repo": "ml-foundations"
+    },
+    {
+      "id": "ai-01",
+      "title": "Scaffold Phishing Classifier",
+      "category": "AI Engineering Projects",
+      "status": "todo",
+      "due": "12/10/2025",
+      "repo": "phishing-classifier"
+    },
+    {
+      "id": "ai-02",
+      "title": "Train and export baseline model",
+      "category": "AI Engineering Projects",
+      "status": "todo",
+      "due": "18/10/2025",
+      "repo": "phishing-classifier"
+    },
+    {
+      "id": "ai-03",
+      "title": "Integrate classifier into Secure AI API",
+      "category": "AI Engineering Projects",
+      "status": "todo",
+      "due": "24/10/2025",
+      "repo": "secure-ai-api"
+    },
+    {
+      "id": "ai-04",
+      "title": "Scaffold AI Chat (RAG) integration",
+      "category": "AI Engineering Projects",
+      "status": "todo",
+      "due": "25/10/2025",
+      "repo": "ai-chat-rag"
+    },
+    {
+      "id": "be-01",
+      "title": "Scaffold Secure AI API (stub)",
+      "category": "Backend Development",
+      "status": "todo",
+      "due": "12/10/2025",
+      "repo": "secure-ai-api"
+    },
+    {
+      "id": "be-02",
+      "title": "Add model + RAG routes",
+      "category": "Backend Development",
+      "status": "todo",
+      "due": "24/10/2025",
+      "repo": "secure-ai-api"
+    },
+    {
+      "id": "be-03",
+      "title": "Add Docker + CI/CD",
+      "category": "Backend Development",
+      "status": "todo",
+      "due": "28/10/2025",
+      "repo": "secure-ai-api"
+    },
+    {
+      "id": "be-04",
+      "title": "Implement JWT auth + rate limiting",
+      "category": "Backend Development",
+      "status": "todo",
+      "due": "04/11/2025",
+      "repo": "secure-ai-api"
+    },
+    {
+      "id": "fl-01",
+      "title": "Scaffold Flutter IAM package",
+      "category": "Flutter App & Packages",
+      "status": "todo",
+      "due": "13/10/2025",
+      "repo": "flutter-iam"
+    },
+    {
+      "id": "fl-02",
+      "title": "Implement OIDC login + token store",
+      "category": "Flutter App & Packages",
+      "status": "todo",
+      "due": "26/10/2025",
+      "repo": "flutter-iam"
+    },
+    {
+      "id": "fl-03",
+      "title": "Add Dio AuthInterceptor + guards",
+      "category": "Flutter App & Packages",
+      "status": "todo",
+      "due": "31/10/2025",
+      "repo": "flutter-iam"
+    },
+    {
+      "id": "fl-04",
+      "title": "Update API Showcase to consume Secure AI API",
+      "category": "Flutter App & Packages",
+      "status": "todo",
+      "due": "05/11/2025",
+      "repo": "api-showcase"
+    },
+    {
+      "id": "sec-01",
+      "title": "Start CompTIA Security+ prep",
+      "category": "Cybersecurity Learning",
+      "status": "todo",
+      "due": "27/10/2025",
+      "repo": null
+    },
+    {
+      "id": "sec-02",
+      "title": "Complete course content",
+      "category": "Cybersecurity Learning",
+      "status": "todo",
+      "due": "15/12/2025",
+      "repo": null
+    },
+    {
+      "id": "sec-03",
+      "title": "Sit Security+ exam",
+      "category": "Cybersecurity Learning",
+      "status": "todo",
+      "due": "20/12/2025",
+      "repo": null
+    }
+  ],
+  "next_milestone": {
+    "title": "Complete Multivariate Regression",
+    "due": "10/10/2025",
+    "id": "ml-03"
+  }
 }

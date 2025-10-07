@@ -4,6 +4,15 @@
 
 _Last updated: 07/10/2025_
 
+## 🧠 Current Focus
+- Week 1: ML Foundations — Linear Regression ✅
+- Next: Multivariate Regression
+- Then: Logistic Regression
+- Security+: prep starts 27/10/2025
+
+## 🎯 Next Milestone
+**Complete Multivariate Regression** — due **10/10/2025** (`ml-03`)
+
 ## 🗂️ Repository Overview
 
 | Repository | Description | Topics | Status | Target |
@@ -15,6 +24,13 @@ _Last updated: 07/10/2025_
 | [`flutter-iam`](https://github.com/Krispy145/flutter-iam) | Flutter OIDC/OAuth2 package: login, token refresh, Dio interceptors. | flutter, oidc, oauth2, jwt | ⏳ Planned | 13/10/2025 |
 | [`api-showcase`](https://github.com/Krispy145/api_showcase) | Flutter API client patterns: BLoC, Dio, pagination, caching (Pexels demo). | flutter, bloc, dio, pagination | ✅ Active | — |
 | [`ai-cyber-security-roadmap`](https://github.com/Krispy145/ai-cyber-security-roadmap) | Single-source roadmap + manifest powering the live CV and badges. | portfolio, roadmap, automation, json-manifest | ✅ Active | — |
+
+## 🗓️ Upcoming Milestones
+- [ ] **Complete Multivariate Regression** — 10/10/2025 · `ml-foundations`
+- [ ] **Scaffold Phishing Classifier** — 12/10/2025 · `phishing-classifier`
+- [ ] **Scaffold Secure AI API (stub)** — 12/10/2025 · `secure-ai-api`
+- [ ] **Scaffold Flutter IAM package** — 13/10/2025 · `flutter-iam`
+- [ ] **Complete Logistic Regression** — 17/10/2025 · `ml-foundations`
 
 ---
 Auto-generated from manifest.json
