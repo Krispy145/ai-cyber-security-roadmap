@@ -13,6 +13,9 @@ python3 scripts/manifest2readme.py
 echo "→ Updating repository READMEs..."
 python3 scripts/update_readmes.py
 
+echo "→ Adding cover URLs to manifest..."
+python3 scripts/add_cover_urls.py
+
 # Check if any README files were modified
 if ! git diff --quiet -- "**/README.md"; then
   echo "✖ README files need to be updated from manifest."

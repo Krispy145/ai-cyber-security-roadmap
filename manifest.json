@@ -8,7 +8,7 @@
     "certifications": 0
   },
   "focus": {
-    "current": "Week 1: ML Foundations \u2014 Linear Regression",
+    "current": "Week 1: ML Foundations — Linear Regression",
     "next": "Multivariate Regression",
     "then": "Logistic Regression",
     "security_prep_start": "27/10/2025"
@@ -28,7 +28,9 @@
         "scikit-learn"
       ],
       "status": "active",
-      "target": "17/10/2025"
+      "target": "17/10/2025",
+      "cover_url": "images/ml-foundations/ml-foundations-cover.webp",
+      "thumbnail_url": "images/ml-foundations/ml-foundations-thumb.webp"
     },
     {
       "name": "phishing-classifier",
@@ -43,7 +45,9 @@
         "scikit-learn"
       ],
       "status": "planned",
-      "target": "12/10/2025"
+      "target": "12/10/2025",
+      "cover_url": "images/phishing-classifier/phishing-classifier-cover.webp",
+      "thumbnail_url": "images/phishing-classifier/phishing-classifier-thumb.webp"
     },
     {
       "name": "secure-ai-api",
@@ -60,16 +64,27 @@
         "github-actions"
       ],
       "status": "planned",
-      "target": "12/10/2025"
+      "target": "12/10/2025",
+      "cover_url": "images/secure-ai-api/secure-ai-api-cover.webp",
+      "thumbnail_url": "images/secure-ai-api/secure-ai-api-thumb.webp"
     },
     {
       "name": "ai-chat-rag",
       "url": "https://github.com/Krispy145/ai_chat_rag",
       "description": "Retrieval-Augmented Generation pipeline integrating LangChain and vector DB",
       "short_description": "Flutter RAG chat with streaming UI (Riverpod + GetIt), connects to Secure AI API.",
-      "topics": ["flutter", "rag", "riverpod", "dio", "websocket", "vector-db"],
+      "topics": [
+        "flutter",
+        "rag",
+        "riverpod",
+        "dio",
+        "websocket",
+        "vector-db"
+      ],
       "status": "scaffolded",
-      "target": "25/10/2025"
+      "target": "25/10/2025",
+      "cover_url": "images/ai-chat-rag/ai-chat-rag-cover.webp",
+      "thumbnail_url": "images/ai-chat-rag/ai-chat-rag-thumb.webp"
     },
     {
       "name": "flutter-iam",
@@ -86,7 +101,9 @@
         "security"
       ],
       "status": "planned",
-      "target": "13/10/2025"
+      "target": "13/10/2025",
+      "cover_url": "images/flutter-iam/flutter-iam-cover.webp",
+      "thumbnail_url": "images/flutter-iam/flutter-iam-thumb.webp"
     },
     {
       "name": "api-showcase",
@@ -103,16 +120,25 @@
         "testing"
       ],
       "status": "planned",
-      "target": null
+      "target": null,
+      "cover_url": "images/api-showcase/api-showcase-cover.webp",
+      "thumbnail_url": "images/api-showcase/api-showcase-thumb.webp"
     },
     {
       "name": "ai-cyber-security-roadmap",
       "url": "https://github.com/Krispy145/ai-cyber-security-roadmap",
       "description": "This roadmap tracker and manifest powering the portfolio",
       "short_description": "Single-source roadmap + manifest powering the live CV and badges.",
-      "topics": ["portfolio", "roadmap", "automation", "json-manifest"],
+      "topics": [
+        "portfolio",
+        "roadmap",
+        "automation",
+        "json-manifest"
+      ],
       "status": "active",
-      "target": null
+      "target": null,
+      "cover_url": "images/ai-cyber-security-roadmap/ai-cyber-security-roadmap-cover.webp",
+      "thumbnail_url": "images/ai-cyber-security-roadmap/ai-cyber-security-roadmap-thumb.webp"
     }
   ],
   "milestones": [
