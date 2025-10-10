@@ -6,8 +6,8 @@ _Last updated: 07/10/2025_
 
 ## 🧠 Current Focus
 - Week 3: ML Foundations — Logistic Regression ✅
-- Next: phishing-classifier
-- Then: secure-ai-api
+- Next: Phishing Classifier - EDA & Feature Engineering
+- Then: Secure AI API - Stub Endpoints & Integration
 - Security+: prep starts 27/10/2025
 
 ## 🎯 Next Milestone
