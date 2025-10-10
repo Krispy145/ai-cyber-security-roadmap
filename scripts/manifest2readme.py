@@ -76,6 +76,13 @@ def status_emoji(s):
     if "stub" in s: return "🔐 Stub"
     return s.title() or "—"
 
+def render_roadmap_table(items):
+    lines = []
+    for it in items:
+        status_icon = "✅ Done" if it["status"] == "done" else "⏳ In Progress" if it["status"] == "in_progress" else "⏳ Planned"
+        lines.append(f"| {it['title']} | {it['category']} | {it['due_fmt']} | {status_icon} |")
+    return "\n".join(lines)
+
 def main():
     with open("manifest.json", encoding="utf-8") as f:
         m = json.load(f)
@@ -132,10 +139,14 @@ _Last updated: {fmt_date(m.get('updated'))}_
 
 {repo_table}
 
-## 🗓️ Upcoming Milestones
-{render_upcoming(items, limit=5)}
+## 🗓 Roadmap
+
+| Milestone                    | Category              | Target Date | Status     |
+| ---------------------------- | --------------------- | ----------- | ---------- |
+{render_roadmap_table(items)}
 
 ---
+
 Auto-generated from manifest.json
 """.strip()
 

@@ -25,12 +25,44 @@ _Last updated: 07/10/2025_
 | [`api-showcase`](https://github.com/Krispy145/api_showcase) | Flutter API client patterns: BLoC, Dio, pagination, caching (Pexels demo). | flutter, bloc, dio, pagination | ⏳ Planned | — |
 | [`ai-cyber-security-roadmap`](https://github.com/Krispy145/ai-cyber-security-roadmap) | Single-source roadmap + manifest powering the live CV and badges. | portfolio, roadmap, automation, json-manifest | ✅ Active | — |
 
-## 🗓️ Upcoming Milestones
-- [ ] **Streaming RAG UI** — 10/10/2025 · `ai-chat-rag`
-- [ ] **Pexels API integration** — 10/10/2025 · `api-showcase`
-- [ ] **Offline caching + pagination** — 14/10/2025 · `api-showcase`
-- [ ] **EDA and feature engineering** — 15/10/2025 · `phishing-classifier`
-- [ ] **Stub endpoints** — 15/10/2025 · `secure-ai-api`
+## 🗓 Roadmap
+
+| Milestone                    | Category              | Target Date | Status     |
+| ---------------------------- | --------------------- | ----------- | ---------- |
+| Complete Linear Regression | Machine Learning Foundations | 06/10/2025 | ✅ Done |
+| Complete Multiple Linear Regression | Machine Learning Foundations | 07/10/2025 | ✅ Done |
+| Complete Logistic Regression | Machine Learning Foundations | 17/10/2025 | ⏳ In Progress |
+| Finish ML Foundations Specialization | Machine Learning Foundations | 20/10/2025 | ⏳ In Progress |
+| Scaffold repo | AI Engineering Projects | 12/10/2025 | ✅ Done |
+| EDA and feature engineering | AI Engineering Projects | 15/10/2025 | ⏳ In Progress |
+| Train and export baseline | AI Engineering Projects | 18/10/2025 | ⏳ In Progress |
+| Model evaluation suite | AI Engineering Projects | 20/10/2025 | ⏳ In Progress |
+| Secure AI API integration | AI Engineering Projects | 24/10/2025 | ⏳ In Progress |
+| Stub endpoints | Backend Development | 15/10/2025 | ⏳ In Progress |
+| Phishing classifier integration | Backend Development | 20/10/2025 | ⏳ In Progress |
+| RAG endpoint implementation | Backend Development | 24/10/2025 | ⏳ In Progress |
+| Docker + CI/CD setup | Backend Development | 28/10/2025 | ⏳ In Progress |
+| JWT auth + rate limiting | Backend Development | 04/11/2025 | ⏳ In Progress |
+| Scaffold repo | None | 06/10/2025 | ✅ Done |
+| Streaming RAG UI | None | 10/10/2025 | ⏳ In Progress |
+| Connect to Secure AI API | None | 15/10/2025 | ⏳ In Progress |
+| Integrate Flutter IAM | None | 20/10/2025 | ⏳ In Progress |
+| Web Demo Deployment | None | 25/10/2025 | ⏳ In Progress |
+| Scaffold package | Flutter App & Packages | 13/10/2025 | ✅ Done |
+| Core authentication flows | Flutter App & Packages | 20/10/2025 | ⏳ In Progress |
+| Okta/Azure AD integration | Flutter App & Packages | 26/10/2025 | ⏳ In Progress |
+| Dio interceptor + route guards | Flutter App & Packages | 31/10/2025 | ⏳ In Progress |
+| Token rotation + multi-tenant | Flutter App & Packages | 05/11/2025 | ⏳ In Progress |
+| Documentation + v1.0.0 | Flutter App & Packages | 10/11/2025 | ⏳ In Progress |
+| Pexels API integration | Flutter App & Packages | 10/10/2025 | ⏳ In Progress |
+| Offline caching + pagination | Flutter App & Packages | 14/10/2025 | ⏳ In Progress |
+| Secure AI API integration | Flutter App & Packages | 20/10/2025 | ⏳ In Progress |
+| Flutter IAM integration | Flutter App & Packages | 27/10/2025 | ⏳ In Progress |
+| Create roadmap repo | Machine Learning Foundations | 06/10/2025 | ✅ Done |
+| Start CompTIA Security+ prep | Cybersecurity Learning | 27/10/2025 | ⏳ In Progress |
+| Complete course content | Cybersecurity Learning | 15/12/2025 | ⏳ In Progress |
+| Sit Security+ exam | Cybersecurity Learning | 20/12/2025 | ⏳ In Progress |
 
 ---
+
 Auto-generated from manifest.json
