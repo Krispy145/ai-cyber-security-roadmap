@@ -26,11 +26,11 @@ _Last updated: 07/10/2025_
 | [`ai-cyber-security-roadmap`](https://github.com/Krispy145/ai-cyber-security-roadmap) | Single-source roadmap + manifest powering the live CV and badges. | portfolio, roadmap, automation, json-manifest | ✅ Active | — |
 
 ## 🗓️ Upcoming Milestones
-- [ ] **Scaffold Phishing Classifier** — 12/10/2025 · `phishing-classifier`
-- [ ] **Scaffold Secure AI API (stub)** — 12/10/2025 · `secure-ai-api`
-- [ ] **Scaffold Flutter IAM package** — 13/10/2025 · `flutter-iam`
-- [ ] **Complete Logistic Regression** — 17/10/2025 · `ml-foundations`
-- [ ] **Train and export baseline model** — 18/10/2025 · `phishing-classifier`
+- [ ] **Streaming RAG UI** — 10/10/2025 · `ai-chat-rag`
+- [ ] **Pexels API integration** — 10/10/2025 · `api-showcase`
+- [ ] **Offline caching + pagination** — 14/10/2025 · `api-showcase`
+- [ ] **EDA and feature engineering** — 15/10/2025 · `phishing-classifier`
+- [ ] **Stub endpoints** — 15/10/2025 · `secure-ai-api`
 
 ---
 Auto-generated from manifest.json

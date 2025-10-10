@@ -73,7 +73,14 @@
       "url": "https://github.com/Krispy145/ai_chat_rag",
       "description": "Retrieval-Augmented Generation pipeline integrating LangChain and vector DB",
       "short_description": "Flutter RAG chat with streaming UI (Riverpod + GetIt), connects to Secure AI API.",
-      "topics": ["flutter", "rag", "riverpod", "dio", "websocket", "vector-db"],
+      "topics": [
+        "flutter",
+        "rag",
+        "riverpod",
+        "dio",
+        "websocket",
+        "vector-db"
+      ],
       "status": "scaffolded",
       "target": "25/10/2025",
       "cover_url": "images/ai-chat-rag/ai-chat-rag-cover.webp",
@@ -122,7 +129,12 @@
       "url": "https://github.com/Krispy145/ai-cyber-security-roadmap",
       "description": "This roadmap tracker and manifest powering the portfolio",
       "short_description": "Single-source roadmap + manifest powering the live CV and badges.",
-      "topics": ["portfolio", "roadmap", "automation", "json-manifest"],
+      "topics": [
+        "portfolio",
+        "roadmap",
+        "automation",
+        "json-manifest"
+      ],
       "status": "active",
       "target": null,
       "cover_url": "images/ai-cyber-security-roadmap/ai-cyber-security-roadmap-cover.webp",
@@ -174,7 +186,7 @@
       "id": "ai-01",
       "title": "Scaffold Phishing Classifier",
       "category": "AI Engineering Projects",
-      "status": "in_progress",
+      "status": "done",
       "due": "12/10/2025",
       "repo": "phishing-classifier"
     },
@@ -198,15 +210,15 @@
       "id": "ai-04",
       "title": "Scaffold AI Chat (RAG) integration",
       "category": "AI Engineering Projects",
-      "status": "todo",
-      "due": "25/10/2025",
+      "status": "done",
+      "due": "06/10/2025",
       "repo": "ai-chat-rag"
     },
     {
       "id": "be-01",
       "title": "Scaffold Secure AI API (stub)",
       "category": "Backend Development",
-      "status": "in_progress",
+      "status": "done",
       "due": "12/10/2025",
       "repo": "secure-ai-api"
     },
@@ -222,7 +234,7 @@
       "id": "be-03",
       "title": "Add Docker + CI/CD",
       "category": "Backend Development",
-      "status": "todo",
+      "status": "in_progress",
       "due": "28/10/2025",
       "repo": "secure-ai-api"
     },
@@ -230,7 +242,7 @@
       "id": "be-04",
       "title": "Implement JWT auth + rate limiting",
       "category": "Backend Development",
-      "status": "todo",
+      "status": "in_progress",
       "due": "04/11/2025",
       "repo": "secure-ai-api"
     },
@@ -238,7 +250,7 @@
       "id": "fl-01",
       "title": "Scaffold Flutter IAM package",
       "category": "Flutter App & Packages",
-      "status": "todo",
+      "status": "done",
       "due": "13/10/2025",
       "repo": "flutter-iam"
     },
@@ -254,8 +266,8 @@
       "id": "fl-03",
       "title": "Add Dio AuthInterceptor + guards",
       "category": "Flutter App & Packages",
-      "status": "todo",
-      "due": "31/10/2025",
+      "status": "in_progress",
+      "due": "20/10/2025",
       "repo": "flutter-iam"
     },
     {
@@ -289,6 +301,166 @@
       "status": "todo",
       "due": "20/12/2025",
       "repo": null
+    },
+    {
+      "title": "EDA and feature engineering",
+      "category": "AI Engineering Projects",
+      "due": "15/10/2025",
+      "status": "in_progress",
+      "repo": "phishing-classifier",
+      "id": "phishing-21"
+    },
+    {
+      "title": "Train and export baseline",
+      "category": "AI Engineering Projects",
+      "due": "18/10/2025",
+      "status": "in_progress",
+      "repo": "phishing-classifier",
+      "id": "phishing-22"
+    },
+    {
+      "title": "Model evaluation suite",
+      "category": "AI Engineering Projects",
+      "due": "20/10/2025",
+      "status": "in_progress",
+      "repo": "phishing-classifier",
+      "id": "phishing-23"
+    },
+    {
+      "title": "Secure AI API integration",
+      "category": "AI Engineering Projects",
+      "due": "24/10/2025",
+      "status": "in_progress",
+      "repo": "phishing-classifier",
+      "id": "phishing-24"
+    },
+    {
+      "title": "Stub endpoints",
+      "category": "Backend Development",
+      "due": "15/10/2025",
+      "status": "in_progress",
+      "repo": "secure-ai-api",
+      "id": "secure-25"
+    },
+    {
+      "title": "Phishing classifier integration",
+      "category": "Backend Development",
+      "due": "20/10/2025",
+      "status": "in_progress",
+      "repo": "secure-ai-api",
+      "id": "secure-26"
+    },
+    {
+      "title": "RAG endpoint implementation",
+      "category": "Backend Development",
+      "due": "24/10/2025",
+      "status": "in_progress",
+      "repo": "secure-ai-api",
+      "id": "secure-27"
+    },
+    {
+      "title": "Streaming RAG UI",
+      "due": "10/10/2025",
+      "status": "in_progress",
+      "category": null,
+      "repo": "ai-chat-rag",
+      "id": "ai-28"
+    },
+    {
+      "title": "Connect to Secure AI API",
+      "due": "15/10/2025",
+      "status": "in_progress",
+      "category": null,
+      "repo": "ai-chat-rag",
+      "id": "ai-29"
+    },
+    {
+      "title": "Integrate Flutter IAM",
+      "due": "20/10/2025",
+      "status": "in_progress",
+      "category": null,
+      "repo": "ai-chat-rag",
+      "id": "ai-30"
+    },
+    {
+      "title": "Web Demo Deployment",
+      "due": "25/10/2025",
+      "status": "in_progress",
+      "category": null,
+      "repo": "ai-chat-rag",
+      "id": "ai-31"
+    },
+    {
+      "title": "Okta/Azure AD integration",
+      "category": "Flutter App & Packages",
+      "due": "26/10/2025",
+      "status": "in_progress",
+      "repo": "flutter-iam",
+      "id": "flutter-32"
+    },
+    {
+      "title": "Dio interceptor + route guards",
+      "category": "Flutter App & Packages",
+      "due": "31/10/2025",
+      "status": "in_progress",
+      "repo": "flutter-iam",
+      "id": "flutter-33"
+    },
+    {
+      "title": "Token rotation + multi-tenant",
+      "category": "Flutter App & Packages",
+      "due": "05/11/2025",
+      "status": "in_progress",
+      "repo": "flutter-iam",
+      "id": "flutter-34"
+    },
+    {
+      "title": "Documentation + v1.0.0",
+      "category": "Flutter App & Packages",
+      "due": "10/11/2025",
+      "status": "in_progress",
+      "repo": "flutter-iam",
+      "id": "flutter-35"
+    },
+    {
+      "title": "Scaffold repo",
+      "category": "Flutter App & Packages",
+      "due": "06/10/2025",
+      "status": "done",
+      "repo": "api-showcase",
+      "id": "api-36"
+    },
+    {
+      "title": "Pexels API integration",
+      "category": "Flutter App & Packages",
+      "due": "10/10/2025",
+      "status": "in_progress",
+      "repo": "api-showcase",
+      "id": "api-37"
+    },
+    {
+      "title": "Offline caching + pagination",
+      "category": "Flutter App & Packages",
+      "due": "14/10/2025",
+      "status": "in_progress",
+      "repo": "api-showcase",
+      "id": "api-38"
+    },
+    {
+      "title": "Secure AI API integration",
+      "category": "Flutter App & Packages",
+      "due": "20/10/2025",
+      "status": "in_progress",
+      "repo": "api-showcase",
+      "id": "api-39"
+    },
+    {
+      "title": "Flutter IAM integration",
+      "category": "Flutter App & Packages",
+      "due": "27/10/2025",
+      "status": "in_progress",
+      "repo": "api-showcase",
+      "id": "api-40"
     }
   ],
   "next_milestone": {
