@@ -1,16 +1,16 @@
 {
   "updated": "2025-10-07",
   "progress": {
-    "learning": 45,
-    "projects": 20,
-    "backend": 10,
+    "learning": 50,
+    "projects": 30,
+    "backend": 20,
     "flutter": 10,
     "certifications": 0
   },
   "focus": {
-    "current": "Week 1: ML Foundations — Linear Regression",
-    "next": "Multivariate Regression",
-    "then": "Logistic Regression",
+    "current": "Week 3: ML Foundations — Logistic Regression",
+    "next": "phishing-classifier",
+    "then": "secure-ai-api",
     "security_prep_start": "27/10/2025"
   },
   "repositories": [
@@ -44,7 +44,7 @@
         "feature-engineering",
         "scikit-learn"
       ],
-      "status": "planned",
+      "status": "active",
       "target": "12/10/2025",
       "cover_url": "images/phishing-classifier/phishing-classifier-cover.webp",
       "thumbnail_url": "images/phishing-classifier/phishing-classifier-thumb.webp"
@@ -63,7 +63,7 @@
         "docker",
         "github-actions"
       ],
-      "status": "planned",
+      "status": "active",
       "target": "12/10/2025",
       "cover_url": "images/secure-ai-api/secure-ai-api-cover.webp",
       "thumbnail_url": "images/secure-ai-api/secure-ai-api-thumb.webp"
@@ -73,14 +73,7 @@
       "url": "https://github.com/Krispy145/ai_chat_rag",
       "description": "Retrieval-Augmented Generation pipeline integrating LangChain and vector DB",
       "short_description": "Flutter RAG chat with streaming UI (Riverpod + GetIt), connects to Secure AI API.",
-      "topics": [
-        "flutter",
-        "rag",
-        "riverpod",
-        "dio",
-        "websocket",
-        "vector-db"
-      ],
+      "topics": ["flutter", "rag", "riverpod", "dio", "websocket", "vector-db"],
       "status": "scaffolded",
       "target": "25/10/2025",
       "cover_url": "images/ai-chat-rag/ai-chat-rag-cover.webp",
@@ -129,12 +122,7 @@
       "url": "https://github.com/Krispy145/ai-cyber-security-roadmap",
       "description": "This roadmap tracker and manifest powering the portfolio",
       "short_description": "Single-source roadmap + manifest powering the live CV and badges.",
-      "topics": [
-        "portfolio",
-        "roadmap",
-        "automation",
-        "json-manifest"
-      ],
+      "topics": ["portfolio", "roadmap", "automation", "json-manifest"],
       "status": "active",
       "target": null,
       "cover_url": "images/ai-cyber-security-roadmap/ai-cyber-security-roadmap-cover.webp",
@@ -160,17 +148,17 @@
     },
     {
       "id": "ml-03",
-      "title": "Complete Multivariate Regression",
+      "title": "Complete Multiple Linear Regression",
       "category": "Machine Learning Foundations",
-      "status": "in_progress",
-      "due": "10/10/2025",
+      "status": "done",
+      "date": "07/10/2025",
       "repo": "ml-foundations"
     },
     {
       "id": "ml-04",
       "title": "Complete Logistic Regression",
       "category": "Machine Learning Foundations",
-      "status": "todo",
+      "status": "in_progress",
       "due": "17/10/2025",
       "repo": "ml-foundations"
     },
@@ -186,7 +174,7 @@
       "id": "ai-01",
       "title": "Scaffold Phishing Classifier",
       "category": "AI Engineering Projects",
-      "status": "todo",
+      "status": "in_progress",
       "due": "12/10/2025",
       "repo": "phishing-classifier"
     },
@@ -218,7 +206,7 @@
       "id": "be-01",
       "title": "Scaffold Secure AI API (stub)",
       "category": "Backend Development",
-      "status": "todo",
+      "status": "in_progress",
       "due": "12/10/2025",
       "repo": "secure-ai-api"
     },
@@ -304,8 +292,8 @@
     }
   ],
   "next_milestone": {
-    "title": "Complete Multivariate Regression",
-    "due": "10/10/2025",
-    "id": "ml-03"
+    "title": "Complete Logistic Regression",
+    "due": "17/10/2025",
+    "id": "ml-04"
   }
 }
