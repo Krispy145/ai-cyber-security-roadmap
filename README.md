@@ -43,11 +43,11 @@ _Last updated: 07/10/2025_
 | RAG endpoint implementation | Backend Development | 24/10/2025 | ⏳ In Progress |
 | Docker + CI/CD setup | Backend Development | 28/10/2025 | ⏳ In Progress |
 | JWT auth + rate limiting | Backend Development | 04/11/2025 | ⏳ In Progress |
-| Scaffold repo | None | 06/10/2025 | ✅ Done |
-| Streaming RAG UI | None | 10/10/2025 | ⏳ In Progress |
-| Connect to Secure AI API | None | 15/10/2025 | ⏳ In Progress |
-| Integrate Flutter IAM | None | 20/10/2025 | ⏳ In Progress |
-| Web Demo Deployment | None | 25/10/2025 | ⏳ In Progress |
+| Scaffold repo | Flutter App & Packages | 06/10/2025 | ✅ Done |
+| Streaming RAG UI | Flutter App & Packages | 10/10/2025 | ⏳ In Progress |
+| Connect to Secure AI API | Flutter App & Packages | 15/10/2025 | ⏳ In Progress |
+| Integrate Flutter IAM | Flutter App & Packages | 20/10/2025 | ⏳ In Progress |
+| Web Demo Deployment | Flutter App & Packages | 25/10/2025 | ⏳ In Progress |
 | Scaffold package | Flutter App & Packages | 13/10/2025 | ✅ Done |
 | Core authentication flows | Flutter App & Packages | 20/10/2025 | ⏳ In Progress |
 | Okta/Azure AD integration | Flutter App & Packages | 26/10/2025 | ⏳ In Progress |

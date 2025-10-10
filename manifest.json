@@ -260,7 +260,7 @@
     {
       "id": "ai-chat-01",
       "title": "Scaffold repo",
-      "category": null,
+      "category": "Flutter App & Packages",
       "status": "done",
       "due": "06/10/2025",
       "repo": "ai-chat-rag",
@@ -269,7 +269,7 @@
     {
       "id": "ai-chat-02",
       "title": "Streaming RAG UI",
-      "category": null,
+      "category": "Flutter App & Packages",
       "status": "in_progress",
       "due": "10/10/2025",
       "repo": "ai-chat-rag"
@@ -277,7 +277,7 @@
     {
       "id": "ai-chat-03",
       "title": "Connect to Secure AI API",
-      "category": null,
+      "category": "Flutter App & Packages",
       "status": "in_progress",
       "due": "15/10/2025",
       "repo": "ai-chat-rag"
@@ -285,7 +285,7 @@
     {
       "id": "ai-chat-04",
       "title": "Integrate Flutter IAM",
-      "category": null,
+      "category": "Flutter App & Packages",
       "status": "in_progress",
       "due": "20/10/2025",
       "repo": "ai-chat-rag"
@@ -293,7 +293,7 @@
     {
       "id": "ai-chat-05",
       "title": "Web Demo Deployment",
-      "category": null,
+      "category": "Flutter App & Packages",
       "status": "in_progress",
       "due": "25/10/2025",
       "repo": "ai-chat-rag"
