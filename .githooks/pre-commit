@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Skip pre-commit if SKIP environment variable is set
+if [[ "${SKIP:-}" == "pre-commit" ]]; then
+  echo "Skipping pre-commit hooks (SKIP=pre-commit)"
+  exit 0
+fi
+
 REPO_ROOT="$(git rev-parse --show-toplevel)"
 cd "$REPO_ROOT"
 
@@ -10,16 +16,16 @@ python3 scripts/validate_manifest.py
 echo "→ Checking README generation..."
 python3 scripts/manifest2readme.py
 
-echo "→ Updating repository READMEs..."
-python3 scripts/update_readmes.py
+echo "→ Updating repository READMEs and committing changes..."
+python3 scripts/update_and_commit_readmes.py
 
 echo "→ Adding cover URLs to manifest..."
 python3 scripts/add_cover_urls.py
 
-# Check if any README files were modified
+# Check if any README files were modified (should be auto-committed now)
 if ! git diff --quiet -- "**/README.md"; then
-  echo "✖ README files need to be updated from manifest."
-  echo "Run: python3 scripts/update_readmes.py && git add ."
+  echo "✖ README files still need to be updated from manifest."
+  echo "This should have been handled automatically. Check the update script."
   git --no-pager diff -- "**/README.md"
   exit 1
 fi
