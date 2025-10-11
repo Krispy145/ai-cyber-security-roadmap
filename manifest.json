@@ -4,9 +4,9 @@
     "learning": 50,
     "projects": 30,
     "backend": 20,
-    "flutter": 10,
-    "react": 5,
-    "react_native": 5,
+    "flutterProjects": 10,
+    "reactProjects": 5,
+    "reactNativeProjects": 5,
     "certifications": 0
   },
   "focus": {
