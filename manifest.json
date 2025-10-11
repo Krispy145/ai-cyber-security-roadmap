@@ -139,7 +139,7 @@
         "zustand",
         "jwt"
       ],
-      "status": "active",
+      "status": "scaffolded",
       "target": "20/10/2025",
       "cover_url": "images/react-phishing-dashboard/react-phishing-dashboard-cover.webp",
       "thumbnail_url": "images/react-phishing-dashboard/react-phishing-dashboard-thumb.webp"
@@ -157,7 +157,7 @@
         "jwt",
         "rag"
       ],
-      "status": "active",
+      "status": "scaffolded",
       "target": "24/10/2025",
       "cover_url": "images/react-native-chat-rag/react-native-chat-rag-cover.webp",
       "thumbnail_url": "images/react-native-chat-rag/react-native-chat-rag-thumb.webp"
@@ -174,7 +174,7 @@
         "zustand",
         "jwt"
       ],
-      "status": "active",
+      "status": "scaffolded",
       "target": "20/10/2025",
       "cover_url": "images/react-native-api-showcase/react-native-api-showcase-cover.webp",
       "thumbnail_url": "images/react-native-api-showcase/react-native-api-showcase-thumb.webp"
@@ -193,7 +193,7 @@
         "zustand",
         "secure-store"
       ],
-      "status": "active",
+      "status": "scaffolded",
       "target": "25/10/2025",
       "cover_url": "images/react-native-iam-package/react-native-iam-package-cover.webp",
       "thumbnail_url": "images/react-native-iam-package/react-native-iam-package-thumb.webp"
