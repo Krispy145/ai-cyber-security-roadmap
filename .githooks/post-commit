@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Skip post-commit if SKIP environment variable is set
+if [[ "${SKIP:-}" == "post-commit" ]]; then
+  echo "Skipping post-commit hooks (SKIP=post-commit)"
+  exit 0
+fi
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+cd "$REPO_ROOT"
+
+echo "→ Committing and pushing README changes to other repositories..."
+python3 scripts/commit_and_push_readmes.py --exclude-main
+
+echo "✓ Post-commit hooks completed."

@@ -1,6 +1,6 @@
 # AI + Cybersecurity Roadmap - Development Makefile
 
-.PHONY: help validate sync readmes covers hooks clean test
+.PHONY: help validate sync readmes covers hooks clean test commit-push
 
 # Default target
 help:
@@ -11,12 +11,14 @@ help:
 	@echo "  readmes      - Standardize all README files"
 	@echo "  covers       - Generate cover images for repositories"
 	@echo "  github-sync  - Sync repository descriptions and topics to GitHub"
+	@echo "  commit-push  - Commit and push README changes to all repositories"
 	@echo "  hooks        - Set up pre-commit hooks for all repositories"
 	@echo "  clean        - Clean up generated files"
 	@echo "  test         - Run all validation and tests"
 	@echo ""
 	@echo "  sync-dry     - Dry run of complete synchronization"
 	@echo "  readmes-dry  - Dry run of README standardization"
+	@echo "  commit-push-dry - Dry run of commit and push README changes"
 	@echo "  hooks-dry    - Dry run of pre-commit hook setup"
 	@echo ""
 
@@ -57,6 +59,15 @@ github-sync:
 github-sync-dry:
 	@echo "Dry run of GitHub repository sync..."
 	@python3 scripts/sync_github_repos.py --dry-run
+
+# Commit and push README changes
+commit-push:
+	@echo "Committing and pushing README changes to all repositories..."
+	@python3 scripts/commit_and_push_readmes.py --exclude-main
+
+commit-push-dry:
+	@echo "Dry run of commit and push README changes..."
+	@python3 scripts/commit_and_push_readmes.py --dry-run --exclude-main
 
 # Pre-commit hooks
 hooks:

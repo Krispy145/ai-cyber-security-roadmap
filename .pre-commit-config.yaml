@@ -74,6 +74,16 @@ repos:
         pass_filenames: false
         args: [--repo]
 
+      # Commit and push README changes to other repositories
+      - id: commit-push-readmes
+        name: Commit and push README changes
+        entry: python3 scripts/commit_and_push_readmes.py
+        language: system
+        files: ^.*/README\.md$
+        pass_filenames: false
+        args: [--exclude-main]
+        stages: [post-commit]
+
   # Markdown formatting
   - repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.37.0

@@ -16,8 +16,8 @@ python3 scripts/validate_manifest.py
 echo "→ Checking README generation..."
 python3 scripts/manifest2readme.py
 
-echo "→ Updating repository READMEs and committing changes..."
-python3 scripts/update_and_commit_readmes.py
+echo "→ Standardizing repository READMEs..."
+python3 scripts/standardize_readmes.py
 
 echo "→ Adding cover URLs to manifest..."
 python3 scripts/add_cover_urls.py
