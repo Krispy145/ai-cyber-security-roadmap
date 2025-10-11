@@ -91,11 +91,10 @@ def main():
     p = m.get("progress", {})
     badges = " ".join([
         pct_badge("Learning", p.get("learning", 0)),
-        pct_badge("Projects", p.get("projects", 0)),
-        pct_badge("Backend", p.get("backend", 0)),
-        pct_badge("Flutter", p.get("flutterProjects", 0)),
-        pct_badge("React", p.get("reactProjects", 0)),
-        pct_badge("React Native", p.get("reactNativeProjects", 0)),
+        pct_badge("Backend Projects", p.get("backendProjects", 0)),
+        pct_badge("Flutter Projects", p.get("flutterProjects", 0)),
+        pct_badge("React Projects", p.get("reactProjects", 0)),
+        pct_badge("React Native Projects", p.get("reactNativeProjects", 0)),
         pct_badge("Certifications", p.get("certifications", 0)),
     ])
 

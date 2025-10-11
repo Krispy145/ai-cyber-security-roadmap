@@ -2,8 +2,7 @@
   "updated": "2025-10-11",
   "progress": {
     "learning": 50,
-    "projects": 30,
-    "backend": 20,
+    "backendProjects": 20,
     "flutterProjects": 10,
     "reactProjects": 5,
     "reactNativeProjects": 5,

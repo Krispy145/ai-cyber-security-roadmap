@@ -37,7 +37,7 @@ def main():
 
     # progress
     prog = manifest.get("progress", {})
-    for k in ("learning","projects","backend","flutterProjects","reactProjects","reactNativeProjects","certifications"):
+    for k in ("learning","backendProjects","flutterProjects","reactProjects","reactNativeProjects","certifications"):
         v = prog.get(k)
         if not isinstance(v, int) or not (0 <= v <= 100):
             errors.append(f"`progress.{k}` must be 0–100 int (got {v}).")
