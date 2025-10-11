@@ -53,9 +53,12 @@ def check_git_status(repo_path: str) -> Tuple[bool, List[str]]:
         if line.strip():
             # git status --porcelain format: XY filename
             # X = status of index, Y = status of working tree
-            status = line[:2]
-            filename = line[3:]
-            changed_files.append((status, filename))
+            # Format can be " M README.md" or "M README.md"
+            parts = line.split(None, 1)  # Split on whitespace, max 1 split
+            if len(parts) == 2:
+                status = parts[0]
+                filename = parts[1]
+                changed_files.append((status, filename))
     
     return True, changed_files
 
@@ -95,7 +98,7 @@ def commit_and_push_repo(repo_name: str, repo_path: str, dry_run: bool = False) 
         return True
     
     # Add README files
-    for status, filename in readme_changes:
+    for filename in readme_changes:
         success, stdout, stderr = run_command(["git", "add", filename], cwd=repo_path)
         if not success:
             print(f"❌ Failed to add {filename}: {stderr}")
