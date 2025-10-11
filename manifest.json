@@ -1,10 +1,12 @@
 {
-  "updated": "2025-10-07",
+  "updated": "2025-10-11",
   "progress": {
     "learning": 50,
     "projects": 30,
     "backend": 20,
     "flutter": 10,
+    "react": 5,
+    "react_native": 5,
     "certifications": 0
   },
   "focus": {
@@ -45,7 +47,7 @@
         "scikit-learn"
       ],
       "status": "active",
-      "target": "12/10/2025",
+      "target": "20/10/2025",
       "cover_url": "images/phishing-classifier/phishing-classifier-cover.webp",
       "thumbnail_url": "images/phishing-classifier/phishing-classifier-thumb.webp"
     },
@@ -64,24 +66,31 @@
         "github-actions"
       ],
       "status": "active",
-      "target": "12/10/2025",
+      "target": "28/10/2025",
       "cover_url": "images/secure-ai-api/secure-ai-api-cover.webp",
       "thumbnail_url": "images/secure-ai-api/secure-ai-api-thumb.webp"
     },
     {
-      "name": "ai-chat-rag",
-      "url": "https://github.com/Krispy145/ai_chat_rag",
-      "description": "Retrieval-Augmented Generation pipeline integrating LangChain and vector DB",
+      "name": "flutter-ai-chat-rag",
+      "url": "https://github.com/Krispy145/flutter-ai-chat-rag",
+      "description": "Flutter RAG chat client with streaming UI",
       "short_description": "Flutter RAG chat with streaming UI (Riverpod + GetIt), connects to Secure AI API.",
-      "topics": ["flutter", "rag", "riverpod", "dio", "websocket", "vector-db"],
+      "topics": [
+        "flutter",
+        "rag",
+        "riverpod",
+        "dio",
+        "websocket",
+        "vector-db"
+      ],
       "status": "scaffolded",
       "target": "25/10/2025",
-      "cover_url": "images/ai-chat-rag/ai-chat-rag-cover.webp",
-      "thumbnail_url": "images/ai-chat-rag/ai-chat-rag-thumb.webp"
+      "cover_url": "images/flutter-ai-chat-rag/flutter-ai-chat-rag-cover.webp",
+      "thumbnail_url": "images/flutter-ai-chat-rag/flutter-ai-chat-rag-thumb.webp"
     },
     {
-      "name": "flutter-iam",
-      "url": "https://github.com/Krispy145/flutter-iam",
+      "name": "flutter-iam-package",
+      "url": "https://github.com/Krispy145/flutter-iam-package",
       "description": "Reusable Flutter package for IAM (Okta / Azure AD)",
       "short_description": "Flutter OIDC/OAuth2 package: login, token refresh, Dio interceptors.",
       "topics": [
@@ -94,15 +103,15 @@
         "security"
       ],
       "status": "planned",
-      "target": "13/10/2025",
-      "cover_url": "images/flutter-iam/flutter-iam-cover.webp",
-      "thumbnail_url": "images/flutter-iam/flutter-iam-thumb.webp"
+      "target": "10/11/2025",
+      "cover_url": "images/flutter-iam-package/flutter-iam-package-cover.webp",
+      "thumbnail_url": "images/flutter-iam-package/flutter-iam-package-thumb.webp"
     },
     {
-      "name": "api-showcase",
-      "url": "https://github.com/Krispy145/api_showcase",
-      "description": "Flutter API demo app (currently Pexels API, later Secure AI API)",
-      "short_description": "Flutter API client patterns: BLoC, Dio, pagination, caching (Pexels demo).",
+      "name": "flutter-api-showcase",
+      "url": "https://github.com/Krispy145/flutter-api-showcase",
+      "description": "Flutter API demo app (patterns first, Secure AI API later)",
+      "short_description": "Flutter API client patterns: BLoC, Dio, pagination, caching; integrates flutter-iam-package.",
       "topics": [
         "flutter",
         "bloc",
@@ -113,16 +122,93 @@
         "testing"
       ],
       "status": "planned",
-      "target": null,
-      "cover_url": "images/api-showcase/api-showcase-cover.webp",
-      "thumbnail_url": "images/api-showcase/api-showcase-thumb.webp"
+      "target": "27/10/2025",
+      "cover_url": "images/flutter-api-showcase/flutter-api-showcase-cover.webp",
+      "thumbnail_url": "images/flutter-api-showcase/flutter-api-showcase-thumb.webp"
+    },
+    {
+      "name": "react-phishing-dashboard",
+      "url": "https://github.com/Krispy145/react-phishing-dashboard",
+      "description": "React web dashboard for phishing classifier with auth",
+      "short_description": "React + TS + Vite: auth, protected routes, samples table, predict form (later).",
+      "topics": [
+        "react",
+        "typescript",
+        "vite",
+        "axios",
+        "zustand",
+        "jwt"
+      ],
+      "status": "active",
+      "target": "20/10/2025",
+      "cover_url": "images/react-phishing-dashboard/react-phishing-dashboard-cover.webp",
+      "thumbnail_url": "images/react-phishing-dashboard/react-phishing-dashboard-thumb.webp"
+    },
+    {
+      "name": "react-native-chat-rag",
+      "url": "https://github.com/Krispy145/react-native-chat-rag",
+      "description": "React Native chat client for RAG endpoints",
+      "short_description": "Expo + TS: secure token storage, RAG chat screen, Axios interceptors.",
+      "topics": [
+        "react-native",
+        "expo",
+        "axios",
+        "zustand",
+        "jwt",
+        "rag"
+      ],
+      "status": "active",
+      "target": "24/10/2025",
+      "cover_url": "images/react-native-chat-rag/react-native-chat-rag-cover.webp",
+      "thumbnail_url": "images/react-native-chat-rag/react-native-chat-rag-thumb.webp"
+    },
+    {
+      "name": "react-native-api-showcase",
+      "url": "https://github.com/Krispy145/react-native-api-showcase",
+      "description": "React Native API patterns demo against Secure AI API",
+      "short_description": "Expo + TS: auth + sample list from /phishing/samples; clean client patterns.",
+      "topics": [
+        "react-native",
+        "expo",
+        "axios",
+        "zustand",
+        "jwt"
+      ],
+      "status": "active",
+      "target": "20/10/2025",
+      "cover_url": "images/react-native-api-showcase/react-native-api-showcase-cover.webp",
+      "thumbnail_url": "images/react-native-api-showcase/react-native-api-showcase-thumb.webp"
+    },
+    {
+      "name": "react-native-iam-package",
+      "url": "https://github.com/Krispy145/react-native-iam-package",
+      "description": "Reusable IAM layer for React Native (Expo-friendly)",
+      "short_description": "Zustand + Axios + SecureStore; login/refresh; hook-based API.",
+      "topics": [
+        "react-native",
+        "expo",
+        "auth",
+        "jwt",
+        "axios",
+        "zustand",
+        "secure-store"
+      ],
+      "status": "active",
+      "target": "25/10/2025",
+      "cover_url": "images/react-native-iam-package/react-native-iam-package-cover.webp",
+      "thumbnail_url": "images/react-native-iam-package/react-native-iam-package-thumb.webp"
     },
     {
       "name": "ai-cyber-security-roadmap",
       "url": "https://github.com/Krispy145/ai-cyber-security-roadmap",
       "description": "This roadmap tracker and manifest powering the portfolio",
       "short_description": "Single-source roadmap + manifest powering the live CV and badges.",
-      "topics": ["portfolio", "roadmap", "automation", "json-manifest"],
+      "topics": [
+        "portfolio",
+        "roadmap",
+        "automation",
+        "json-manifest"
+      ],
       "status": "active",
       "target": null,
       "cover_url": "images/ai-cyber-security-roadmap/ai-cyber-security-roadmap-cover.webp",
@@ -246,126 +332,234 @@
       "repo": "secure-ai-api"
     },
     {
-      "id": "ai-chat-01",
+      "id": "flutter-ai-chat-01",
       "title": "Scaffold repo",
       "category": "Flutter App & Packages",
       "status": "done",
       "due": "06/10/2025",
-      "repo": "ai-chat-rag",
+      "repo": "flutter-ai-chat-rag",
       "date": "06/10/2025"
     },
     {
-      "id": "ai-chat-02",
+      "id": "flutter-ai-chat-02",
       "title": "Streaming RAG UI",
       "category": "Flutter App & Packages",
       "status": "in_progress",
-      "due": "10/10/2025",
-      "repo": "ai-chat-rag"
+      "due": "12/10/2025",
+      "repo": "flutter-ai-chat-rag"
     },
     {
-      "id": "ai-chat-03",
+      "id": "flutter-ai-chat-03",
       "title": "Connect to Secure AI API",
       "category": "Flutter App & Packages",
       "status": "in_progress",
-      "due": "15/10/2025",
-      "repo": "ai-chat-rag"
+      "due": "16/10/2025",
+      "repo": "flutter-ai-chat-rag"
     },
     {
-      "id": "ai-chat-04",
+      "id": "flutter-ai-chat-04",
       "title": "Integrate Flutter IAM",
       "category": "Flutter App & Packages",
       "status": "in_progress",
       "due": "20/10/2025",
-      "repo": "ai-chat-rag"
+      "repo": "flutter-ai-chat-rag"
     },
     {
-      "id": "ai-chat-05",
+      "id": "flutter-ai-chat-05",
       "title": "Web Demo Deployment",
       "category": "Flutter App & Packages",
       "status": "in_progress",
       "due": "25/10/2025",
-      "repo": "ai-chat-rag"
+      "repo": "flutter-ai-chat-rag"
     },
     {
-      "id": "iam-01",
+      "id": "flutter-iam-01",
       "title": "Scaffold package",
       "category": "Flutter App & Packages",
       "status": "done",
       "due": "13/10/2025",
-      "repo": "flutter-iam",
+      "repo": "flutter-iam-package",
       "date": "13/10/2025"
     },
     {
-      "id": "iam-02",
+      "id": "flutter-iam-02",
       "title": "Core authentication flows",
       "category": "Flutter App & Packages",
       "status": "in_progress",
       "due": "20/10/2025",
-      "repo": "flutter-iam"
+      "repo": "flutter-iam-package"
     },
     {
-      "id": "iam-03",
+      "id": "flutter-iam-03",
       "title": "Okta/Azure AD integration",
       "category": "Flutter App & Packages",
       "status": "in_progress",
       "due": "26/10/2025",
-      "repo": "flutter-iam"
+      "repo": "flutter-iam-package"
     },
     {
-      "id": "iam-04",
+      "id": "flutter-iam-04",
       "title": "Dio interceptor + route guards",
       "category": "Flutter App & Packages",
       "status": "in_progress",
       "due": "31/10/2025",
-      "repo": "flutter-iam"
+      "repo": "flutter-iam-package"
     },
     {
-      "id": "iam-05",
+      "id": "flutter-iam-05",
       "title": "Token rotation + multi-tenant",
       "category": "Flutter App & Packages",
       "status": "in_progress",
       "due": "05/11/2025",
-      "repo": "flutter-iam"
+      "repo": "flutter-iam-package"
     },
     {
-      "id": "iam-06",
+      "id": "flutter-iam-06",
       "title": "Documentation + v1.0.0",
       "category": "Flutter App & Packages",
       "status": "in_progress",
       "due": "10/11/2025",
-      "repo": "flutter-iam"
+      "repo": "flutter-iam-package"
     },
     {
-      "id": "api-showcase-01",
-      "title": "Pexels API integration",
-      "category": "Flutter App & Packages",
-      "status": "in_progress",
-      "due": "10/10/2025",
-      "repo": "api-showcase"
-    },
-    {
-      "id": "api-showcase-02",
-      "title": "Offline caching + pagination",
-      "category": "Flutter App & Packages",
-      "status": "in_progress",
-      "due": "14/10/2025",
-      "repo": "api-showcase"
-    },
-    {
-      "id": "api-showcase-03",
-      "title": "Secure AI API integration",
+      "id": "flutter-api-showcase-01",
+      "title": "Pexels/API patterns setup",
       "category": "Flutter App & Packages",
       "status": "in_progress",
       "due": "20/10/2025",
-      "repo": "api-showcase"
+      "repo": "flutter-api-showcase"
     },
     {
-      "id": "api-showcase-04",
-      "title": "Flutter IAM integration",
+      "id": "flutter-api-showcase-02",
+      "title": "Offline caching + pagination",
+      "category": "Flutter App & Packages",
+      "status": "in_progress",
+      "due": "24/10/2025",
+      "repo": "flutter-api-showcase"
+    },
+    {
+      "id": "flutter-api-showcase-03",
+      "title": "Secure AI API integration",
       "category": "Flutter App & Packages",
       "status": "in_progress",
       "due": "27/10/2025",
-      "repo": "api-showcase"
+      "repo": "flutter-api-showcase"
+    },
+    {
+      "id": "flutter-api-showcase-04",
+      "title": "Flutter IAM integration",
+      "category": "Flutter App & Packages",
+      "status": "in_progress",
+      "due": "31/10/2025",
+      "repo": "flutter-api-showcase"
+    },
+    {
+      "id": "react-phish-01",
+      "title": "Scaffold repo",
+      "category": "React Web",
+      "status": "done",
+      "due": "11/10/2025",
+      "repo": "react-phishing-dashboard",
+      "date": "11/10/2025"
+    },
+    {
+      "id": "react-phish-02",
+      "title": "Auth + protected routes",
+      "category": "React Web",
+      "status": "in_progress",
+      "due": "14/10/2025",
+      "repo": "react-phishing-dashboard"
+    },
+    {
+      "id": "react-phish-03",
+      "title": "Samples table + predict form",
+      "category": "React Web",
+      "status": "in_progress",
+      "due": "18/10/2025",
+      "repo": "react-phishing-dashboard"
+    },
+    {
+      "id": "rn-chat-rag-01",
+      "title": "Scaffold repo",
+      "category": "React Native",
+      "status": "done",
+      "due": "11/10/2025",
+      "repo": "react-native-chat-rag",
+      "date": "11/10/2025"
+    },
+    {
+      "id": "rn-chat-rag-02",
+      "title": "Login + secure storage",
+      "category": "React Native",
+      "status": "in_progress",
+      "due": "14/10/2025",
+      "repo": "react-native-chat-rag"
+    },
+    {
+      "id": "rn-chat-rag-03",
+      "title": "RAG chat screen (/rag/query)",
+      "category": "React Native",
+      "status": "in_progress",
+      "due": "18/10/2025",
+      "repo": "react-native-chat-rag"
+    },
+    {
+      "id": "rn-chat-rag-04",
+      "title": "Streaming chat (SSE/WS)",
+      "category": "React Native",
+      "status": "in_progress",
+      "due": "24/10/2025",
+      "repo": "react-native-chat-rag"
+    },
+    {
+      "id": "rn-showcase-01",
+      "title": "Scaffold repo",
+      "category": "React Native",
+      "status": "done",
+      "due": "11/10/2025",
+      "repo": "react-native-api-showcase",
+      "date": "11/10/2025"
+    },
+    {
+      "id": "rn-showcase-02",
+      "title": "Samples list (/phishing/samples)",
+      "category": "React Native",
+      "status": "in_progress",
+      "due": "14/10/2025",
+      "repo": "react-native-api-showcase"
+    },
+    {
+      "id": "rn-showcase-03",
+      "title": "Patterns doc + cleanup",
+      "category": "React Native",
+      "status": "in_progress",
+      "due": "20/10/2025",
+      "repo": "react-native-api-showcase"
+    },
+    {
+      "id": "rn-iam-01",
+      "title": "Scaffold package",
+      "category": "React Native",
+      "status": "done",
+      "due": "11/10/2025",
+      "repo": "react-native-iam-package",
+      "date": "11/10/2025"
+    },
+    {
+      "id": "rn-iam-02",
+      "title": "Core flows (login/refresh/logout)",
+      "category": "React Native",
+      "status": "in_progress",
+      "due": "18/10/2025",
+      "repo": "react-native-iam-package"
+    },
+    {
+      "id": "rn-iam-03",
+      "title": "Docs + usage examples",
+      "category": "React Native",
+      "status": "in_progress",
+      "due": "25/10/2025",
+      "repo": "react-native-iam-package"
     },
     {
       "id": "ai-cyber-01",

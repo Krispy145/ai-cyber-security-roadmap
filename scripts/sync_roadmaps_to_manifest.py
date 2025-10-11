@@ -26,11 +26,15 @@ from typing import Dict, List, Optional, Tuple
 # Repository name to workspace path mapping
 REPO_PATHS = {
     "ml-foundations": "../ml-foundations",
-    "phishing-classifier": "../projects/phishing-classifier", 
-    "secure-ai-api": "../projects/secure-ai-api",
-    "ai-chat-rag": "../projects/ai-chat-rag",
-    "flutter-iam": "../projects/flutter-iam",
-    "api-showcase": "../projects/api-showcase",
+    "phishing-classifier": "../phishing-classifier", 
+    "secure-ai-api": "../secure-ai-api",
+    "flutter-ai-chat-rag": "../flutter-ai-chat-rag",
+    "flutter-iam-package": "../flutter-iam-package",
+    "flutter-api-showcase": "../flutter-api-showcase",
+    "react-phishing-dashboard": "../react-phishing-dashboard",
+    "react-native-chat-rag": "../react-native-chat-rag",
+    "react-native-api-showcase": "../react-native-api-showcase",
+    "react-native-iam-package": "../react-native-iam-package",
     "ai-cyber-security-roadmap": "."  # This repo itself
 }
 

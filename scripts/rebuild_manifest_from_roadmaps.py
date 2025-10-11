@@ -26,11 +26,15 @@ from typing import Dict, List, Optional, Tuple
 # Repository name to workspace path mapping
 REPO_PATHS = {
     "ml-foundations": "../ml-foundations",
-    "phishing-classifier": "../projects/phishing-classifier", 
-    "secure-ai-api": "../projects/secure-ai-api",
-    "ai-chat-rag": "../projects/ai-chat-rag",
-    "flutter-iam": "../projects/flutter-iam",
-    "api-showcase": "../projects/api-showcase",
+    "phishing-classifier": "../phishing-classifier", 
+    "secure-ai-api": "../secure-ai-api",
+    "flutter-ai-chat-rag": "../flutter-ai-chat-rag",
+    "flutter-iam-package": "../flutter-iam-package",
+    "flutter-api-showcase": "../flutter-api-showcase",
+    "react-phishing-dashboard": "../react-phishing-dashboard",
+    "react-native-chat-rag": "../react-native-chat-rag",
+    "react-native-api-showcase": "../react-native-api-showcase",
+    "react-native-iam-package": "../react-native-iam-package",
     "ai-cyber-security-roadmap": "."  # This repo itself
 }
 
@@ -167,8 +171,8 @@ def generate_identifier(repo_name: str, index: int) -> str:
         return f"secure-ai-api-{index:02d}"
     elif repo_name == "ai-chat-rag":
         return f"ai-chat-{index:02d}"
-    elif repo_name == "flutter-iam":
-        return f"iam-{index:02d}"
+    elif repo_name == "flutter-iam-package":
+        return f"flutter-iam-{index:02d}"
     elif repo_name == "api-showcase":
         return f"api-showcase-{index:02d}"
     else:

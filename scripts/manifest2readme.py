@@ -94,6 +94,8 @@ def main():
         pct_badge("Projects", p.get("projects", 0)),
         pct_badge("Backend", p.get("backend", 0)),
         pct_badge("Flutter", p.get("flutter", 0)),
+        pct_badge("React", p.get("react", 0)),
+        pct_badge("React Native", p.get("react_native", 0)),
         pct_badge("Certifications", p.get("certifications", 0)),
     ])
 

@@ -4,7 +4,7 @@ from pathlib import Path
 
 MANIFEST_PATH = Path("manifest.json")
 ALLOWED_REPO_STATUS = {"active","planned","scaffolded","stub","done"}
-ALLOWED_MS_STATUS   = {"todo","in_progress","done"}
+ALLOWED_MS_STATUS   = {"todo","in_progress","done","planned"}
 
 def parse_date_any(s: str):
     for fmt in ("%d/%m/%Y", "%Y-%m-%d"):
@@ -37,7 +37,7 @@ def main():
 
     # progress
     prog = manifest.get("progress", {})
-    for k in ("learning","projects","backend","flutter","certifications"):
+    for k in ("learning","projects","backend","flutter","react","react_native","certifications"):
         v = prog.get(k)
         if not isinstance(v, int) or not (0 <= v <= 100):
             errors.append(f"`progress.{k}` must be 0–100 int (got {v}).")
@@ -120,10 +120,10 @@ def main():
         if repo and repo not in seen_repo_names:
             errors.append(f"milestones[{j}] {mid}: repo '{repo}' not in repositories[].name.")
 
-        # duplicate title+due detection
-        pair = (title.strip().lower() if title else "", due or date or "")
+        # duplicate title+due detection within same repository
+        pair = (repo or "", title.strip().lower() if title else "", due or date or "")
         if pair in seen_pairs:
-            errors.append(f"Duplicate milestone with same title+date: '{title}' {due or date}.")
+            errors.append(f"Duplicate milestone with same title+date in repo '{repo}': '{title}' {due or date}.")
         seen_pairs.add(pair)
 
     # next_milestone consistency
