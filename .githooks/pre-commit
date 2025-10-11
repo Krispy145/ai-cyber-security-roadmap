@@ -22,6 +22,12 @@ python3 scripts/standardize_readmes.py
 echo "→ Adding cover URLs to manifest..."
 python3 scripts/add_cover_urls.py
 
+# Stage any README changes that were made
+if ! git diff --quiet -- "README.md"; then
+  echo "→ Staging updated README.md..."
+  git add README.md
+fi
+
 # Check if any README files were modified (should be auto-committed now)
 if ! git diff --quiet -- "**/README.md"; then
   echo "✖ README files still need to be updated from manifest."
