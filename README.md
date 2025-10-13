@@ -8,7 +8,7 @@ Single-source roadmap + manifest powering the live CV and badges.
 
 - **Status:** active (Active)
 - **Focus:** Single-source roadmap + manifest powering the live CV and badges.
-- **Last updated:** 11/10/2025
+- **Last updated:** 13/10/2025
 - **Target completion:** —
 
 ---

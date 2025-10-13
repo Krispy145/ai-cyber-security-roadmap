@@ -1,16 +1,16 @@
 {
-  "updated": "2025-10-11",
+  "updated": "2025-10-13",
   "progress": {
     "learning": 50,
-    "backendProjects": 20,
+    "backendProjects": 35,
     "flutterProjects": 10,
     "reactProjects": 5,
     "reactNativeProjects": 5,
     "certifications": 0
   },
   "focus": {
-    "current": "Week 3: ML Foundations — Logistic Regression",
-    "next": "Phishing Classifier - EDA & Feature Engineering",
+    "current": "Phishing Classifier - Feature Engineering Complete",
+    "next": "Phishing Classifier - Model Training & Evaluation",
     "then": "Secure AI API - Stub Endpoints & Integration",
     "security_prep_start": "27/10/2025"
   },
@@ -36,14 +36,18 @@
     {
       "name": "phishing-classifier",
       "url": "https://github.com/Krispy145/phishing-classifier",
-      "description": "ML fundamentals project using UCI Phishing dataset",
-      "short_description": "Supervised model to detect phishing: EDA, features, baselines, metrics.",
+      "description": "Advanced ML project with 20 engineered features for phishing detection",
+      "short_description": "Complete feature engineering pipeline with 20 features, comprehensive testing, and production-ready architecture.",
       "topics": [
         "cybersecurity",
         "phishing",
         "classification",
         "feature-engineering",
-        "scikit-learn"
+        "scikit-learn",
+        "machine-learning",
+        "python",
+        "pytest",
+        "testing"
       ],
       "status": "active",
       "target": "20/10/2025",
@@ -230,9 +234,28 @@
       "id": "phishing-02",
       "title": "EDA and feature engineering",
       "category": "AI Engineering Projects",
-      "status": "in_progress",
+      "status": "done",
       "due": "15/10/2025",
-      "repo": "phishing-classifier"
+      "repo": "phishing-classifier",
+      "date": "13/10/2025"
+    },
+    {
+      "id": "phishing-02b",
+      "title": "Comprehensive testing infrastructure",
+      "category": "AI Engineering Projects",
+      "status": "done",
+      "due": "15/10/2025",
+      "repo": "phishing-classifier",
+      "date": "13/10/2025"
+    },
+    {
+      "id": "phishing-02c",
+      "title": "Dataset management system",
+      "category": "AI Engineering Projects",
+      "status": "done",
+      "due": "15/10/2025",
+      "repo": "phishing-classifier",
+      "date": "13/10/2025"
     },
     {
       "id": "phishing-03",
