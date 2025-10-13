@@ -78,7 +78,14 @@
       "url": "https://github.com/Krispy145/flutter-ai-chat-rag",
       "description": "Flutter RAG chat client with streaming UI",
       "short_description": "Flutter RAG chat with streaming UI (Riverpod + GetIt), connects to Secure AI API.",
-      "topics": ["flutter", "rag", "riverpod", "dio", "websocket", "vector-db"],
+      "topics": [
+        "flutter",
+        "rag",
+        "riverpod",
+        "dio",
+        "websocket",
+        "vector-db"
+      ],
       "status": "scaffolded",
       "target": "25/10/2025",
       "cover_url": "images/flutter-ai-chat-rag/flutter-ai-chat-rag-cover.webp",
@@ -127,7 +134,14 @@
       "url": "https://github.com/Krispy145/react-phishing-dashboard",
       "description": "React web dashboard for phishing classifier with auth",
       "short_description": "React + TS + Vite: auth, protected routes, samples table, predict form (later).",
-      "topics": ["react", "typescript", "vite", "axios", "zustand", "jwt"],
+      "topics": [
+        "react",
+        "typescript",
+        "vite",
+        "axios",
+        "zustand",
+        "jwt"
+      ],
       "status": "scaffolded",
       "target": "20/10/2025",
       "cover_url": "images/react-phishing-dashboard/react-phishing-dashboard-cover.webp",
@@ -138,7 +152,14 @@
       "url": "https://github.com/Krispy145/react-native-chat-rag",
       "description": "React Native chat client for RAG endpoints",
       "short_description": "Expo + TS: secure token storage, RAG chat screen, Axios interceptors.",
-      "topics": ["react-native", "expo", "axios", "zustand", "jwt", "rag"],
+      "topics": [
+        "react-native",
+        "expo",
+        "axios",
+        "zustand",
+        "jwt",
+        "rag"
+      ],
       "status": "scaffolded",
       "target": "24/10/2025",
       "cover_url": "images/react-native-chat-rag/react-native-chat-rag-cover.webp",
@@ -149,7 +170,13 @@
       "url": "https://github.com/Krispy145/react-native-api-showcase",
       "description": "React Native API patterns demo against Secure AI API",
       "short_description": "Expo + TS: auth + sample list from /phishing/samples; clean client patterns.",
-      "topics": ["react-native", "expo", "axios", "zustand", "jwt"],
+      "topics": [
+        "react-native",
+        "expo",
+        "axios",
+        "zustand",
+        "jwt"
+      ],
       "status": "scaffolded",
       "target": "20/10/2025",
       "cover_url": "images/react-native-api-showcase/react-native-api-showcase-cover.webp",
@@ -179,7 +206,12 @@
       "url": "https://github.com/Krispy145/ai-cyber-security-roadmap",
       "description": "This roadmap tracker and manifest powering the portfolio",
       "short_description": "Single-source roadmap + manifest powering the live CV and badges.",
-      "topics": ["portfolio", "roadmap", "automation", "json-manifest"],
+      "topics": [
+        "portfolio",
+        "roadmap",
+        "automation",
+        "json-manifest"
+      ],
       "status": "active",
       "target": null,
       "cover_url": "images/ai-cyber-security-roadmap/ai-cyber-security-roadmap-cover.webp",
@@ -584,6 +616,42 @@
       "status": "in_progress",
       "due": "20/12/2025",
       "repo": "ai-cyber-security-roadmap"
+    },
+    {
+      "id": "ai-cyber-05",
+      "title": "Automated README synchronization",
+      "category": "Portfolio Automation",
+      "status": "done",
+      "due": "13/10/2025",
+      "repo": "ai-cyber-security-roadmap",
+      "date": "13/10/2025"
+    },
+    {
+      "id": "ai-cyber-06",
+      "title": "GitHub API integration",
+      "category": "Portfolio Automation",
+      "status": "done",
+      "due": "13/10/2025",
+      "repo": "ai-cyber-security-roadmap",
+      "date": "13/10/2025"
+    },
+    {
+      "id": "ai-cyber-07",
+      "title": "Multi-repository coordination",
+      "category": "Portfolio Automation",
+      "status": "done",
+      "due": "13/10/2025",
+      "repo": "ai-cyber-security-roadmap",
+      "date": "13/10/2025"
+    },
+    {
+      "id": "ai-cyber-08",
+      "title": "Progress visualization system",
+      "category": "Portfolio Automation",
+      "status": "done",
+      "due": "13/10/2025",
+      "repo": "ai-cyber-security-roadmap",
+      "date": "13/10/2025"
     }
   ],
   "next_milestone": {
