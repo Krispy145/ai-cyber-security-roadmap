@@ -1,13 +1,13 @@
 # Ai Cyber Security Roadmap
 
-Course 2: Advanced Learning Algorithms - Neural Networks → Course 3: Unsupervised Learning, Recommenders, RL
+Course 2: Advanced Learning Algorithms → Course 3: Unsupervised Learning, Recommenders, RL → Phishing Classifier - Model Training & Evaluation
 
 ---
 
 ## 📈 Status
 
 - **Status:** active (Active)
-- **Focus:** Course 2: Advanced Learning Algorithms - Neural Networks → Course 3: Unsupervised Learning, Recommenders, RL
+- **Focus:** Course 2: Advanced Learning Algorithms → Course 3: Unsupervised Learning, Recommenders, RL → Phishing Classifier - Model Training & Evaluation
 - **Last updated:** 13/10/2025
 - **Target completion:** —
 

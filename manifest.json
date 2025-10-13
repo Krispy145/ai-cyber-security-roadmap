@@ -9,9 +9,9 @@
     "certifications": 0
   },
   "focus": {
-    "current": "Course 2: Advanced Learning Algorithms - Neural Networks",
-    "next": "Course 2: Advanced Learning Algorithms - Decision Trees & Ensemble Methods",
-    "then": "Course 3: Unsupervised Learning, Recommenders, RL",
+    "current": "Course 2: Advanced Learning Algorithms",
+    "next": "Course 3: Unsupervised Learning, Recommenders, RL",
+    "then": "Phishing Classifier - Model Training & Evaluation",
     "security_prep_start": "27/10/2025"
   },
   "repositories": [
@@ -178,7 +178,7 @@
       "name": "ai-cyber-security-roadmap",
       "url": "https://github.com/Krispy145/ai-cyber-security-roadmap",
       "description": "This roadmap tracker and manifest powering the portfolio",
-      "short_description": "Course 2: Advanced Learning Algorithms - Neural Networks → Course 3: Unsupervised Learning, Recommenders, RL",
+      "short_description": "Course 2: Advanced Learning Algorithms → Course 3: Unsupervised Learning, Recommenders, RL → Phishing Classifier - Model Training & Evaluation",
       "topics": ["portfolio", "roadmap", "automation", "json-manifest"],
       "status": "active",
       "target": null,
