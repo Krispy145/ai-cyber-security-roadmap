@@ -1,7 +1,7 @@
 {
   "updated": "2025-10-13",
   "progress": {
-    "learning": 50,
+    "learning": 60,
     "backendProjects": 35,
     "flutterProjects": 10,
     "reactProjects": 5,
@@ -209,9 +209,10 @@
       "id": "ml-03",
       "title": "Complete Logistic Regression",
       "category": "Machine Learning Foundations",
-      "status": "in_progress",
+      "status": "done",
       "due": "17/10/2025",
-      "repo": "ml-foundations"
+      "repo": "ml-foundations",
+      "date": "13/10/2025"
     },
     {
       "id": "ml-04",
@@ -586,8 +587,8 @@
     }
   ],
   "next_milestone": {
-    "title": "Complete Logistic Regression",
-    "due": "17/10/2025",
+    "title": "Finish ML Foundations Specialization",
+    "due": "20/10/2025",
     "id": "ml-04"
   }
 }
