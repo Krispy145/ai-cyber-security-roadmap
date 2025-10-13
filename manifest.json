@@ -564,7 +564,7 @@
 
     {
       "id": "ai-cyber-02",
-      "title": "Complete ML Foundations Specialization Course",
+      "title": "Complete ML Specialization Course",
       "category": "Machine Learning Foundations",
       "status": "in_progress",
       "due": "20/10/2025",
@@ -572,7 +572,7 @@
     },
     {
       "id": "ai-cyber-03",
-      "title": "Complete Meta Front-End Developer Specialization",
+      "title": "Complete Meta Front-End Developer",
       "category": "Frontend Development",
       "status": "planned",
       "due": "15/11/2025",
