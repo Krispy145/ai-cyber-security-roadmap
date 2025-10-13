@@ -215,14 +215,6 @@
       "date": "13/10/2025"
     },
     {
-      "id": "ml-04",
-      "title": "Finish ML Foundations Specialization",
-      "category": "Machine Learning Foundations",
-      "status": "in_progress",
-      "due": "20/10/2025",
-      "repo": "ml-foundations"
-    },
-    {
       "id": "phishing-01",
       "title": "Scaffold repo",
       "category": "AI Engineering Projects",
@@ -561,7 +553,6 @@
       "repo": "ai-cyber-security-roadmap",
       "date": "06/10/2025"
     },
-
     {
       "id": "ai-cyber-02",
       "title": "Complete ML Specialization Course",
@@ -612,8 +603,8 @@
     }
   ],
   "next_milestone": {
-    "title": "Finish ML Foundations Specialization",
+    "title": "Complete ML Specialization Course",
     "due": "20/10/2025",
-    "id": "ml-04"
+    "id": "ai-cyber-02"
   }
 }
