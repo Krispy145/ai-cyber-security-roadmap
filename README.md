@@ -89,13 +89,12 @@ cd ai-cyber-security-roadmap
 | Milestone                    | Category              | Target Date | Status     |
 | ---------------------------- | --------------------- | ----------- | ---------- |
 | Create roadmap repo | Machine Learning Foundations | 06/10/2025 | ✅ Done |
+| Complete ML Foundations Specialization Course | Machine Learning Foundations | 20/10/2025 | ⏳ In Progress |
+| Complete Meta Front-End Developer | Frontend Development | 15/11/2025 | ⏳ Planned |
+| Complete Meta React Native Specialization | Mobile Development | 15/12/2025 | ⏳ Planned |
 | Start CompTIA Security+ prep | Cybersecurity Learning | 27/10/2025 | ⏳ In Progress |
-| Complete course content | Cybersecurity Learning | 15/12/2025 | ⏳ In Progress |
+| Complete Security+ course content | Cybersecurity Learning | 15/12/2025 | ⏳ In Progress |
 | Sit Security+ exam | Cybersecurity Learning | 20/12/2025 | ⏳ In Progress |
-| Automated README synchronization | Portfolio Automation | 13/10/2025 | ✅ Done |
-| GitHub API integration | Portfolio Automation | 13/10/2025 | ✅ Done |
-| Multi-repository coordination | Portfolio Automation | 13/10/2025 | ✅ Done |
-| Progress visualization system | Portfolio Automation | 13/10/2025 | ✅ Done |
 
 
 ---
