@@ -78,7 +78,14 @@
       "url": "https://github.com/Krispy145/flutter-ai-chat-rag",
       "description": "Flutter RAG chat client with streaming UI",
       "short_description": "Flutter RAG chat with streaming UI (Riverpod + GetIt), connects to Secure AI API.",
-      "topics": ["flutter", "rag", "riverpod", "dio", "websocket", "vector-db"],
+      "topics": [
+        "flutter",
+        "rag",
+        "riverpod",
+        "dio",
+        "websocket",
+        "vector-db"
+      ],
       "status": "scaffolded",
       "target": "25/10/2025",
       "cover_url": "images/flutter-ai-chat-rag/flutter-ai-chat-rag-cover.webp",
@@ -127,7 +134,14 @@
       "url": "https://github.com/Krispy145/react-phishing-dashboard",
       "description": "React web dashboard for phishing classifier with auth",
       "short_description": "React + TS + Vite: auth, protected routes, samples table, predict form (later).",
-      "topics": ["react", "typescript", "vite", "axios", "zustand", "jwt"],
+      "topics": [
+        "react",
+        "typescript",
+        "vite",
+        "axios",
+        "zustand",
+        "jwt"
+      ],
       "status": "scaffolded",
       "target": "20/10/2025",
       "cover_url": "images/react-phishing-dashboard/react-phishing-dashboard-cover.webp",
@@ -138,7 +152,14 @@
       "url": "https://github.com/Krispy145/react-native-chat-rag",
       "description": "React Native chat client for RAG endpoints",
       "short_description": "Expo + TS: secure token storage, RAG chat screen, Axios interceptors.",
-      "topics": ["react-native", "expo", "axios", "zustand", "jwt", "rag"],
+      "topics": [
+        "react-native",
+        "expo",
+        "axios",
+        "zustand",
+        "jwt",
+        "rag"
+      ],
       "status": "scaffolded",
       "target": "24/10/2025",
       "cover_url": "images/react-native-chat-rag/react-native-chat-rag-cover.webp",
@@ -149,7 +170,13 @@
       "url": "https://github.com/Krispy145/react-native-api-showcase",
       "description": "React Native API patterns demo against Secure AI API",
       "short_description": "Expo + TS: auth + sample list from /phishing/samples; clean client patterns.",
-      "topics": ["react-native", "expo", "axios", "zustand", "jwt"],
+      "topics": [
+        "react-native",
+        "expo",
+        "axios",
+        "zustand",
+        "jwt"
+      ],
       "status": "scaffolded",
       "target": "20/10/2025",
       "cover_url": "images/react-native-api-showcase/react-native-api-showcase-cover.webp",
@@ -179,7 +206,12 @@
       "url": "https://github.com/Krispy145/ai-cyber-security-roadmap",
       "description": "This roadmap tracker and manifest powering the portfolio",
       "short_description": "Single-source roadmap + manifest powering the live CV and badges.",
-      "topics": ["portfolio", "roadmap", "automation", "json-manifest"],
+      "topics": [
+        "portfolio",
+        "roadmap",
+        "automation",
+        "json-manifest"
+      ],
       "status": "active",
       "target": null,
       "cover_url": "images/ai-cyber-security-roadmap/ai-cyber-security-roadmap-cover.webp",
@@ -190,7 +222,7 @@
     {
       "id": "ml-01",
       "title": "Complete Linear Regression",
-      "category": "Machine Learning Foundations",
+      "category": "Machine Learning Specialization",
       "status": "done",
       "due": "06/10/2025",
       "repo": "ml-foundations",
@@ -199,7 +231,7 @@
     {
       "id": "ml-02",
       "title": "Complete Multiple Linear Regression",
-      "category": "Machine Learning Foundations",
+      "category": "Machine Learning Specialization",
       "status": "done",
       "due": "07/10/2025",
       "repo": "ml-foundations",
@@ -208,7 +240,7 @@
     {
       "id": "ml-03",
       "title": "Complete Logistic Regression",
-      "category": "Machine Learning Foundations",
+      "category": "Machine Learning Specialization",
       "status": "done",
       "due": "17/10/2025",
       "repo": "ml-foundations",
@@ -580,7 +612,7 @@
     {
       "id": "ai-cyber-01",
       "title": "Create roadmap repo",
-      "category": "Portfolio Automation",
+      "category": "Roadmap Overview",
       "status": "done",
       "due": "06/10/2025",
       "repo": "ai-cyber-security-roadmap",
@@ -589,7 +621,7 @@
     {
       "id": "ai-cyber-02",
       "title": "Complete Machine Learning Specialization (Andrew Ng)",
-      "category": "Machine Learning Specialization",
+      "category": "Roadmap Overview",
       "status": "in_progress",
       "due": "20/11/2025",
       "repo": "ai-cyber-security-roadmap"
@@ -597,7 +629,7 @@
     {
       "id": "ai-cyber-03",
       "title": "Complete Meta Front-End Developer",
-      "category": "Frontend Development",
+      "category": "Roadmap Overview",
       "status": "planned",
       "due": "15/11/2025",
       "repo": "ai-cyber-security-roadmap"
@@ -605,7 +637,7 @@
     {
       "id": "ai-cyber-04",
       "title": "Complete Meta React Native Specialization",
-      "category": "Mobile Development",
+      "category": "Roadmap Overview",
       "status": "planned",
       "due": "15/12/2025",
       "repo": "ai-cyber-security-roadmap"
@@ -613,7 +645,7 @@
     {
       "id": "ai-cyber-05",
       "title": "Start CompTIA Security+ prep",
-      "category": "Cybersecurity Learning",
+      "category": "Roadmap Overview",
       "status": "in_progress",
       "due": "27/10/2025",
       "repo": "ai-cyber-security-roadmap"
@@ -621,7 +653,7 @@
     {
       "id": "ai-cyber-06",
       "title": "Complete Security+ course content",
-      "category": "Cybersecurity Learning",
+      "category": "Roadmap Overview",
       "status": "in_progress",
       "due": "15/12/2025",
       "repo": "ai-cyber-security-roadmap"
@@ -629,7 +661,7 @@
     {
       "id": "ai-cyber-07",
       "title": "Sit Security+ exam",
-      "category": "Cybersecurity Learning",
+      "category": "Roadmap Overview",
       "status": "in_progress",
       "due": "20/12/2025",
       "repo": "ai-cyber-security-roadmap"

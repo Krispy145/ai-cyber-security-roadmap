@@ -88,13 +88,13 @@ cd ai-cyber-security-roadmap
 
 | Milestone                    | Category              | Target Date | Status     |
 | ---------------------------- | --------------------- | ----------- | ---------- |
-| Create roadmap repo | Portfolio Automation | 06/10/2025 | ✅ Done |
-| Complete Machine Learning Specialization (Andrew Ng) | Machine Learning Specialization | 20/11/2025 | ⏳ In Progress |
-| Complete Meta Front-End Developer | Frontend Development | 15/11/2025 | ⏳ Planned |
-| Complete Meta React Native Specialization | Mobile Development | 15/12/2025 | ⏳ Planned |
-| Start CompTIA Security+ prep | Cybersecurity Learning | 27/10/2025 | ⏳ In Progress |
-| Complete Security+ course content | Cybersecurity Learning | 15/12/2025 | ⏳ In Progress |
-| Sit Security+ exam | Cybersecurity Learning | 20/12/2025 | ⏳ In Progress |
+| Create roadmap repo | Roadmap Overview | 06/10/2025 | ✅ Done |
+| Complete Machine Learning Specialization (Andrew Ng) | Roadmap Overview | 20/11/2025 | ⏳ In Progress |
+| Complete Meta Front-End Developer | Roadmap Overview | 15/11/2025 | ⏳ Planned |
+| Complete Meta React Native Specialization | Roadmap Overview | 15/12/2025 | ⏳ Planned |
+| Start CompTIA Security+ prep | Roadmap Overview | 27/10/2025 | ⏳ In Progress |
+| Complete Security+ course content | Roadmap Overview | 15/12/2025 | ⏳ In Progress |
+| Sit Security+ exam | Roadmap Overview | 20/12/2025 | ⏳ In Progress |
 
 
 ---
