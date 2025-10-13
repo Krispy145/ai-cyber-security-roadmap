@@ -1,13 +1,13 @@
 # Ai Cyber Security Roadmap
 
-Single-source roadmap + manifest powering the live CV and badges.
+Course 2: Advanced Learning Algorithms - Neural Networks → Course 3: Unsupervised Learning, Recommenders, RL
 
 ---
 
 ## 📈 Status
 
 - **Status:** active (Active)
-- **Focus:** Single-source roadmap + manifest powering the live CV and badges.
+- **Focus:** Course 2: Advanced Learning Algorithms - Neural Networks → Course 3: Unsupervised Learning, Recommenders, RL
 - **Last updated:** 13/10/2025
 - **Target completion:** —
 
