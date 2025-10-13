@@ -88,8 +88,8 @@ cd ai-cyber-security-roadmap
 
 | Milestone                    | Category              | Target Date | Status     |
 | ---------------------------- | --------------------- | ----------- | ---------- |
-| Create roadmap repo | Machine Learning Foundations | 06/10/2025 | ✅ Done |
-| Complete ML Specialization Course | Machine Learning Foundations | 20/10/2025 | ⏳ In Progress |
+| Create roadmap repo | Portfolio Automation | 06/10/2025 | ✅ Done |
+| Complete Machine Learning Specialization (Andrew Ng) | Machine Learning Specialization | 20/11/2025 | ⏳ In Progress |
 | Complete Meta Front-End Developer | Frontend Development | 15/11/2025 | ⏳ Planned |
 | Complete Meta React Native Specialization | Mobile Development | 15/12/2025 | ⏳ Planned |
 | Start CompTIA Security+ prep | Cybersecurity Learning | 27/10/2025 | ⏳ In Progress |

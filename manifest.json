@@ -1,7 +1,7 @@
 {
   "updated": "2025-10-13",
   "progress": {
-    "learning": 60,
+    "learning": 33,
     "backendProjects": 35,
     "flutterProjects": 10,
     "reactProjects": 5,
@@ -213,6 +213,39 @@
       "due": "17/10/2025",
       "repo": "ml-foundations",
       "date": "13/10/2025"
+    },
+    {
+      "id": "ml-04",
+      "title": "Complete Course 1: Supervised Machine Learning",
+      "category": "Machine Learning Specialization",
+      "status": "done",
+      "due": "17/10/2025",
+      "repo": "ml-foundations",
+      "date": "13/10/2025"
+    },
+    {
+      "id": "ml-05",
+      "title": "Complete Course 2: Advanced Learning Algorithms",
+      "category": "Machine Learning Specialization",
+      "status": "planned",
+      "due": "03/11/2025",
+      "repo": "ml-foundations"
+    },
+    {
+      "id": "ml-06",
+      "title": "Complete Course 3: Unsupervised Learning, Recommenders, RL",
+      "category": "Machine Learning Specialization",
+      "status": "planned",
+      "due": "17/11/2025",
+      "repo": "ml-foundations"
+    },
+    {
+      "id": "ml-07",
+      "title": "Complete Machine Learning Specialization (Andrew Ng)",
+      "category": "Machine Learning Specialization",
+      "status": "in_progress",
+      "due": "20/11/2025",
+      "repo": "ml-foundations"
     },
     {
       "id": "phishing-01",
@@ -547,7 +580,7 @@
     {
       "id": "ai-cyber-01",
       "title": "Create roadmap repo",
-      "category": "Machine Learning Foundations",
+      "category": "Portfolio Automation",
       "status": "done",
       "due": "06/10/2025",
       "repo": "ai-cyber-security-roadmap",
@@ -555,10 +588,10 @@
     },
     {
       "id": "ai-cyber-02",
-      "title": "Complete ML Specialization Course",
-      "category": "Machine Learning Foundations",
+      "title": "Complete Machine Learning Specialization (Andrew Ng)",
+      "category": "Machine Learning Specialization",
       "status": "in_progress",
-      "due": "20/10/2025",
+      "due": "20/11/2025",
       "repo": "ai-cyber-security-roadmap"
     },
     {
@@ -603,8 +636,8 @@
     }
   ],
   "next_milestone": {
-    "title": "Complete ML Specialization Course",
-    "due": "20/10/2025",
-    "id": "ai-cyber-02"
+    "title": "Complete Course 2: Advanced Learning Algorithms",
+    "due": "03/11/2025",
+    "id": "ml-05"
   }
 }
