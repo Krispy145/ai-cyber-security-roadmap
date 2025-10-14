@@ -13,6 +13,26 @@ cd "$REPO_ROOT"
 echo "→ Validating manifest.json..."
 python3 scripts/validate_manifest.py
 
+echo "→ Formatting manifest.json..."
+python3 -c "
+import json
+import sys
+
+# Read manifest.json
+with open('manifest.json', 'r') as f:
+    data = json.load(f)
+
+# Write back with proper formatting (2-space indentation)
+with open('manifest.json', 'w') as f:
+    json.dump(data, f, indent=2, ensure_ascii=False)
+
+print('✓ manifest.json formatted successfully')
+"
+
+# Stage the formatted manifest.json
+echo "→ Staging formatted manifest.json..."
+git add manifest.json
+
 echo "→ Checking README generation..."
 python3 scripts/manifest2readme.py
 
