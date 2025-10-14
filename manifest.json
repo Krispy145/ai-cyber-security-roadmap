@@ -227,7 +227,7 @@
       "id": "ml-05",
       "title": "Complete Course 2: Advanced Learning Algorithms",
       "category": "Machine Learning Specialization",
-      "status": "planned",
+      "status": "in_progress",
       "due": "03/11/2025",
       "repo": "ml-foundations"
     },
@@ -243,7 +243,7 @@
       "id": "ml-07",
       "title": "Complete Machine Learning Specialization (Andrew Ng)",
       "category": "Machine Learning Specialization",
-      "status": "in_progress",
+      "status": "planned",
       "due": "20/11/2025",
       "repo": "ml-foundations"
     },
@@ -642,7 +642,7 @@
       "plannedCompletionDate": "20/11/2025"
     },
     {
-      "name": "Phishing Classifier", 
+      "name": "Phishing Classifier",
       "index": 1,
       "plannedCompletionDate": "20/10/2025"
     },
