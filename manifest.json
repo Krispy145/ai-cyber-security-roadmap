@@ -635,6 +635,53 @@
       "repo": "ai-cyber-security-roadmap"
     }
   ],
+  "categories": [
+    {
+      "name": "Machine Learning Specialization",
+      "index": 0,
+      "plannedCompletionDate": "2025-11-20"
+    },
+    {
+      "name": "Phishing Classifier", 
+      "index": 1,
+      "plannedCompletionDate": "2025-10-20"
+    },
+    {
+      "name": "Secure AI API",
+      "index": 2,
+      "plannedCompletionDate": "2025-10-28"
+    },
+    {
+      "name": "Flutter App & Packages",
+      "index": 3,
+      "plannedCompletionDate": "2025-11-10"
+    },
+    {
+      "name": "React Web",
+      "index": 4,
+      "plannedCompletionDate": "2025-10-20"
+    },
+    {
+      "name": "React Native",
+      "index": 5,
+      "plannedCompletionDate": "2025-10-25"
+    },
+    {
+      "name": "Backend Development",
+      "index": 6,
+      "plannedCompletionDate": "2025-11-04"
+    },
+    {
+      "name": "AI Engineering Projects",
+      "index": 7,
+      "plannedCompletionDate": "2025-10-24"
+    },
+    {
+      "name": "Roadmap Overview",
+      "index": 8,
+      "plannedCompletionDate": "2025-12-20"
+    }
+  ],
   "next_milestone": {
     "title": "Complete Course 2: Advanced Learning Algorithms",
     "due": "03/11/2025",
