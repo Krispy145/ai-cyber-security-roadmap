@@ -4,7 +4,7 @@
     "learning": 33,
     "backendProjects": 35,
     "flutterProjects": 10,
-    "reactProjects": 5,
+    "reactProjects": 85,
     "reactNativeProjects": 5,
     "certifications": 0
   },
@@ -132,17 +132,19 @@
     {
       "name": "react-phishing-dashboard",
       "url": "https://github.com/Krispy145/react-phishing-dashboard",
-      "description": "React web dashboard for phishing classifier with auth",
-      "short_description": "React + TS + Vite: auth, protected routes, samples table, predict form (later).",
+      "description": "Professional React dashboard with analytics, auth, and responsive design",
+      "short_description": "React + TS + Vite: professional UI, analytics dashboard, auth system, responsive design with theme support.",
       "topics": [
         "react",
         "typescript",
         "vite",
-        "axios",
+        "styled-components",
         "zustand",
-        "jwt"
+        "jwt",
+        "analytics",
+        "responsive-design"
       ],
-      "status": "scaffolded",
+      "status": "active",
       "target": "20/10/2025",
       "cover_url": "images/react-phishing-dashboard/react-phishing-dashboard-cover.webp",
       "thumbnail_url": "images/react-phishing-dashboard/react-phishing-dashboard-thumb.webp"
@@ -514,17 +516,19 @@
       "id": "react-phish-02",
       "title": "Auth + protected routes",
       "category": "React Web",
-      "status": "in_progress",
+      "status": "done",
       "due": "14/10/2025",
-      "repo": "react-phishing-dashboard"
+      "repo": "react-phishing-dashboard",
+      "date": "13/10/2025"
     },
     {
       "id": "react-phish-03",
-      "title": "Samples table + predict form",
+      "title": "Professional UI + Analytics Dashboard",
       "category": "React Web",
-      "status": "in_progress",
+      "status": "done",
       "due": "18/10/2025",
-      "repo": "react-phishing-dashboard"
+      "repo": "react-phishing-dashboard",
+      "date": "13/10/2025"
     },
     {
       "id": "rn-chat-rag-01",
