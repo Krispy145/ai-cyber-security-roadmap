@@ -106,7 +106,9 @@ lib/
 src/
  ├─ screens/        # React Native screens
  ├─ shared/         # API client, notifications, utilities
- └─ store/          # Zustand state management
+ ├─ store/          # Zustand state management
+ ├─ components/     # Reusable UI components
+ └─ hooks/          # Custom React hooks
 ```
 
 **Patterns used:**
@@ -114,21 +116,44 @@ src/
 - **Zustand** → lightweight state management
 - **Axios** → HTTP client with interceptors
 - **Expo** → cross-platform development
-- **SecureStore** → secure token storage"""
+- **SecureStore** → secure token storage
+- **Styled Components** → CSS-in-JS styling
+- **TypeScript** → type-safe development"""
         else:
             return """```
 src/
- ├─ pages/          # React pages/components
+ ├─ pages/          # Page components with co-located styles
+ │  ├─ Dashboard/   # Dashboard page + Dashboard.styles.ts
+ │  ├─ Login/       # Login page + Login.styles.ts
+ │  └─ Analytics/   # Analytics page + Analytics.styles.ts
+ ├─ components/     # Reusable UI components
+ │  ├─ Button/      # Button component + Button.styles.ts
+ │  ├─ Input/       # Input component + Input.styles.ts
+ │  ├─ Scaffold/    # Flutter-style Scaffold component
+ │  └─ DashboardLayout/ # Main app layout component
+ ├─ theme/          # Theme system (light/dark mode)
+ │  ├─ theme.ts     # Color palettes and design tokens
+ │  ├─ ThemeProvider.tsx # React Context provider
+ │  └─ styled.ts    # Styled-components theme extension
  ├─ shared/         # API client, utilities, types
- └─ store/          # Zustand state management
+ ├─ store/          # Zustand state management
+ ├─ routes/         # Centralized route configuration
+ ├─ hooks/          # Custom React hooks (useBreakpoint, etc.)
+ └─ config/         # Debug configuration and feature flags
 ```
 
 **Patterns used:**
 
 - **React + TypeScript** → type-safe component development
 - **Vite** → fast build tool and dev server
+- **Styled Components** → CSS-in-JS with theme support
 - **Zustand** → lightweight state management
-- **Axios** → HTTP client with interceptors"""
+- **Axios** → HTTP client with interceptors
+- **Co-located Styles** → Component styles in separate .styles.ts files
+- **Theme System** → Centralized design tokens and dark/light mode
+- **Flutter-style Scaffold** → App bar, drawer, bottom navigation patterns
+- **Centralized Routing** → Route configuration with protection guards
+- **VS Code Integration** → Extensions, settings, snippets, and Plop generators"""
     
     elif "ml-foundations" in repo_name:
         return """```
@@ -221,15 +246,22 @@ def get_highlights(repo_name: str, repo_data: Dict) -> List[str]:
                 "**State Management** → Zustand for lightweight state",
                 "**Secure Storage** → SecureStore for tokens",
                 "**HTTP Client** → Axios with interceptors",
-                "**TypeScript** → Type-safe development"
+                "**TypeScript** → Type-safe development",
+                "**Styled Components** → CSS-in-JS styling",
+                "**VS Code Integration** → Extensions, settings, and Plop generators"
             ])
         else:
             highlights.extend([
-                "**React + TypeScript** → Type-safe component development",
-                "**Vite** → Fast build tool and dev server",
-                "**State Management** → Zustand for lightweight state",
-                "**HTTP Client** → Axios with interceptors",
-                "**Modern Tooling** → ESLint, Prettier, TypeScript"
+                "**Professional UI** → Modern dashboard with analytics and responsive design",
+                "**Theme System** → Light/dark mode with centralized design tokens",
+                "**Flutter-style Scaffold** → App bar, drawer, and bottom navigation patterns",
+                "**Analytics Dashboard** → Comprehensive metrics and threat visualization",
+                "**Co-located Styles** → Component styles in separate .styles.ts files",
+                "**Centralized Routing** → Route configuration with authentication guards",
+                "**VS Code Integration** → Extensions, settings, snippets, and Plop generators",
+                "**Modern Tooling** → ESLint, Prettier, TypeScript, Vite",
+                "**State Management** → Zustand for lightweight state management",
+                "**HTTP Client** → Axios with interceptors and error handling"
             ])
     elif "ml-foundations" in repo_name:
         highlights.extend([
@@ -302,14 +334,20 @@ def get_what_it_demonstrates(repo_name: str, repo_data: Dict) -> List[str]:
                 "Cross-platform mobile development with React Native",
                 "State management and API integration patterns",
                 "Secure token storage and authentication flows",
-                "Modern React Native development practices"
+                "Modern React Native development practices",
+                "VS Code integration and development tooling",
+                "Component-based architecture with styled-components"
             ]
         else:
             return [
-                "Modern React development with TypeScript",
-                "State management and API integration patterns",
-                "Component-based architecture and reusability",
-                "Modern web development tooling and practices"
+                "Professional dashboard development with React + TypeScript",
+                "Theme system implementation with light/dark mode support",
+                "Flutter-style UI patterns adapted for web (Scaffold, App Bar, Drawer)",
+                "Analytics dashboard with responsive design and data visualization",
+                "Co-located styling patterns with styled-components",
+                "Centralized routing with authentication guards and protected routes",
+                "VS Code integration with extensions, settings, and code generators",
+                "Modern development workflow with Vite, ESLint, and Prettier"
             ]
     elif "ml-foundations" in repo_name:
         return [
@@ -385,6 +423,11 @@ npx expo run:ios
 **Android:**
 ```bash
 npx expo run:android
+```
+
+**Generate Components:**
+```bash
+npm run plop
 ```""".format(repo_name=repo_name)
         else:
             return """```bash
@@ -401,7 +444,17 @@ npm run dev
 **Build:**
 ```bash
 npm run build
-```""".format(repo_name=repo_name)
+```
+
+**Generate Components:**
+```bash
+npm run plop
+```
+
+**VS Code Setup:**
+- Install recommended extensions (auto-suggested on first open)
+- Use `Ctrl+Shift+P` → "Developer: Reload Window" to apply settings
+- Use snippets: `rft` (React functional component), `usehook` (custom hook)""".format(repo_name=repo_name)
     
     elif "ml-foundations" in repo_name:
         return """```bash
@@ -478,7 +531,8 @@ npm test
 
 - Unit → components and utilities
 - Integration → API interactions
-- E2E → user flows"""
+- E2E → user flows
+- Component → UI component testing with React Native Testing Library"""
         else:
             return """```bash
 npm test
@@ -486,7 +540,10 @@ npm test
 
 - Unit → components and utilities
 - Integration → API interactions
-- E2E → user flows"""
+- E2E → user flows
+- Component → UI component testing with React Testing Library
+- Theme → light/dark mode theme testing
+- Responsive → breakpoint and layout testing"""
     
     elif "ml-foundations" in repo_name:
         return """```bash
