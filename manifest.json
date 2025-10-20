@@ -29,7 +29,7 @@
         "scikit-learn"
       ],
       "status": "active",
-      "target": "17/10/2025",
+      "target": "29/10/2025",
       "cover_url": "images/ml-foundations/ml-foundations-cover.webp",
       "thumbnail_url": "images/ml-foundations/ml-foundations-thumb.webp"
     },
@@ -50,7 +50,7 @@
         "testing"
       ],
       "status": "active",
-      "target": "20/10/2025",
+      "target": "26/10/2025",
       "cover_url": "images/phishing-classifier/phishing-classifier-cover.webp",
       "thumbnail_url": "images/phishing-classifier/phishing-classifier-thumb.webp"
     },
@@ -69,7 +69,7 @@
         "github-actions"
       ],
       "status": "active",
-      "target": "28/10/2025",
+      "target": "27/10/2025",
       "cover_url": "images/secure-ai-api/secure-ai-api-cover.webp",
       "thumbnail_url": "images/secure-ai-api/secure-ai-api-thumb.webp"
     },
@@ -87,7 +87,7 @@
         "vector-db"
       ],
       "status": "scaffolded",
-      "target": "25/10/2025",
+      "target": "26/10/2025",
       "cover_url": "images/flutter-ai-chat-rag/flutter-ai-chat-rag-cover.webp",
       "thumbnail_url": "images/flutter-ai-chat-rag/flutter-ai-chat-rag-thumb.webp"
     },
@@ -105,8 +105,8 @@
         "azure-ad",
         "security"
       ],
-      "status": "planned",
-      "target": "10/11/2025",
+      "status": "scaffolded",
+      "target": "26/10/2025",
       "cover_url": "images/flutter-iam-package/flutter-iam-package-cover.webp",
       "thumbnail_url": "images/flutter-iam-package/flutter-iam-package-thumb.webp"
     },
@@ -124,8 +124,8 @@
         "hive",
         "testing"
       ],
-      "status": "planned",
-      "target": "27/10/2025",
+      "status": "scaffolded",
+      "target": "26/10/2025",
       "cover_url": "images/flutter-api-showcase/flutter-api-showcase-cover.webp",
       "thumbnail_url": "images/flutter-api-showcase/flutter-api-showcase-thumb.webp"
     },
@@ -145,7 +145,7 @@
         "responsive-design"
       ],
       "status": "active",
-      "target": "20/10/2025",
+      "target": "26/10/2025",
       "cover_url": "images/react-phishing-dashboard/react-phishing-dashboard-cover.webp",
       "thumbnail_url": "images/react-phishing-dashboard/react-phishing-dashboard-thumb.webp"
     },
@@ -163,7 +163,7 @@
         "rag"
       ],
       "status": "scaffolded",
-      "target": "24/10/2025",
+      "target": "27/10/2025",
       "cover_url": "images/react-native-chat-rag/react-native-chat-rag-cover.webp",
       "thumbnail_url": "images/react-native-chat-rag/react-native-chat-rag-thumb.webp"
     },
@@ -180,7 +180,7 @@
         "jwt"
       ],
       "status": "scaffolded",
-      "target": "20/10/2025",
+      "target": "27/10/2025",
       "cover_url": "images/react-native-api-showcase/react-native-api-showcase-cover.webp",
       "thumbnail_url": "images/react-native-api-showcase/react-native-api-showcase-thumb.webp"
     },
@@ -199,7 +199,7 @@
         "secure-store"
       ],
       "status": "scaffolded",
-      "target": "25/10/2025",
+      "target": "27/10/2025",
       "cover_url": "images/react-native-iam-package/react-native-iam-package-cover.webp",
       "thumbnail_url": "images/react-native-iam-package/react-native-iam-package-thumb.webp"
     },
@@ -244,7 +244,7 @@
       "title": "Complete Logistic Regression",
       "category": "Machine Learning Specialization",
       "status": "done",
-      "due": "17/10/2025",
+      "due": "26/10/2025",
       "repo": "ml-foundations",
       "date": "13/10/2025"
     },
@@ -253,7 +253,7 @@
       "title": "Complete Course 1: Supervised Machine Learning",
       "category": "Machine Learning Specialization",
       "status": "done",
-      "due": "17/10/2025",
+      "due": "26/10/2025",
       "repo": "ml-foundations",
       "date": "13/10/2025"
     },
@@ -286,7 +286,7 @@
       "title": "Scaffold repo",
       "category": "AI Engineering Projects",
       "status": "done",
-      "due": "12/10/2025",
+      "due": "26/10/2025",
       "repo": "phishing-classifier",
       "date": "12/10/2025"
     },
@@ -295,7 +295,7 @@
       "title": "EDA and feature engineering",
       "category": "AI Engineering Projects",
       "status": "done",
-      "due": "15/10/2025",
+      "due": "26/10/2025",
       "repo": "phishing-classifier",
       "date": "13/10/2025"
     },
@@ -304,7 +304,7 @@
       "title": "Comprehensive testing infrastructure",
       "category": "AI Engineering Projects",
       "status": "done",
-      "due": "15/10/2025",
+      "due": "26/10/2025",
       "repo": "phishing-classifier",
       "date": "13/10/2025"
     },
@@ -313,7 +313,7 @@
       "title": "Dataset management system",
       "category": "AI Engineering Projects",
       "status": "done",
-      "due": "15/10/2025",
+      "due": "26/10/2025",
       "repo": "phishing-classifier",
       "date": "13/10/2025"
     },
@@ -322,7 +322,7 @@
       "title": "Train and export baseline",
       "category": "AI Engineering Projects",
       "status": "in_progress",
-      "due": "18/10/2025",
+      "due": "26/10/2025",
       "repo": "phishing-classifier"
     },
     {
@@ -346,7 +346,7 @@
       "title": "Stub endpoints",
       "category": "Backend Development",
       "status": "in_progress",
-      "due": "15/10/2025",
+      "due": "26/10/2025",
       "repo": "secure-ai-api"
     },
     {
@@ -395,7 +395,7 @@
       "title": "Streaming RAG UI",
       "category": "Flutter App & Packages",
       "status": "in_progress",
-      "due": "12/10/2025",
+      "due": "26/10/2025",
       "repo": "flutter-ai-chat-rag"
     },
     {
@@ -403,7 +403,7 @@
       "title": "Connect to Secure AI API",
       "category": "Flutter App & Packages",
       "status": "in_progress",
-      "due": "16/10/2025",
+      "due": "26/10/2025",
       "repo": "flutter-ai-chat-rag"
     },
     {
@@ -427,7 +427,7 @@
       "title": "Scaffold package",
       "category": "Flutter App & Packages",
       "status": "done",
-      "due": "13/10/2025",
+      "due": "26/10/2025",
       "repo": "flutter-iam-package",
       "date": "13/10/2025"
     },
@@ -508,7 +508,7 @@
       "title": "Scaffold repo",
       "category": "React Web",
       "status": "done",
-      "due": "11/10/2025",
+      "due": "26/10/2025",
       "repo": "react-phishing-dashboard",
       "date": "11/10/2025"
     },
@@ -517,7 +517,7 @@
       "title": "Auth + protected routes",
       "category": "React Web",
       "status": "done",
-      "due": "14/10/2025",
+      "due": "26/10/2025",
       "repo": "react-phishing-dashboard",
       "date": "13/10/2025"
     },
@@ -526,7 +526,7 @@
       "title": "Professional UI + Analytics Dashboard",
       "category": "React Web",
       "status": "done",
-      "due": "18/10/2025",
+      "due": "26/10/2025",
       "repo": "react-phishing-dashboard",
       "date": "13/10/2025"
     },
@@ -535,7 +535,7 @@
       "title": "Scaffold repo",
       "category": "React Native",
       "status": "done",
-      "due": "11/10/2025",
+      "due": "26/10/2025",
       "repo": "react-native-chat-rag",
       "date": "11/10/2025"
     },
@@ -544,7 +544,7 @@
       "title": "Login + secure storage",
       "category": "React Native",
       "status": "in_progress",
-      "due": "14/10/2025",
+      "due": "26/10/2025",
       "repo": "react-native-chat-rag"
     },
     {
@@ -552,7 +552,7 @@
       "title": "RAG chat screen (/rag/query)",
       "category": "React Native",
       "status": "in_progress",
-      "due": "18/10/2025",
+      "due": "26/10/2025",
       "repo": "react-native-chat-rag"
     },
     {
@@ -568,7 +568,7 @@
       "title": "Scaffold repo",
       "category": "React Native",
       "status": "done",
-      "due": "11/10/2025",
+      "due": "26/10/2025",
       "repo": "react-native-api-showcase",
       "date": "11/10/2025"
     },
@@ -577,7 +577,7 @@
       "title": "Samples list (/phishing/samples)",
       "category": "React Native",
       "status": "in_progress",
-      "due": "14/10/2025",
+      "due": "26/10/2025",
       "repo": "react-native-api-showcase"
     },
     {
@@ -593,7 +593,7 @@
       "title": "Scaffold package",
       "category": "React Native",
       "status": "done",
-      "due": "11/10/2025",
+      "due": "26/10/2025",
       "repo": "react-native-iam-package",
       "date": "11/10/2025"
     },
@@ -602,7 +602,7 @@
       "title": "Core flows (login/refresh/logout)",
       "category": "React Native",
       "status": "in_progress",
-      "due": "18/10/2025",
+      "due": "26/10/2025",
       "repo": "react-native-iam-package"
     },
     {
@@ -720,7 +720,7 @@
   ],
   "next_milestone": {
     "title": "Complete Course 2: Advanced Learning Algorithms",
-    "due": "03/11/2025",
+    "due": "26/10/2025",
     "id": "ml-05"
   }
 }
