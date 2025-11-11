@@ -8,7 +8,7 @@ Course 2: Advanced Learning Algorithms → Course 3: Unsupervised Learning, Reco
 
 - **Status:** active (Active)
 - **Focus:** Course 2: Advanced Learning Algorithms → Course 3: Unsupervised Learning, Recommenders, RL → Phishing Classifier - Model Training & Evaluation
-- **Last updated:** 13/10/2025
+- **Last updated:** 11/11/2025
 - **Target completion:** —
 
 ---
@@ -89,12 +89,12 @@ cd ai-cyber-security-roadmap
 | Milestone                    | Category              | Target Date | Status     |
 | ---------------------------- | --------------------- | ----------- | ---------- |
 | Create roadmap repo | Roadmap Overview | 06/10/2025 | ✅ Done |
-| Complete Machine Learning Specialization (Andrew Ng) | Roadmap Overview | 20/11/2025 | ⏳ In Progress |
-| Complete Meta Front-End Developer | Roadmap Overview | 15/11/2025 | ⏳ Planned |
-| Complete Meta React Native Specialization | Roadmap Overview | 15/12/2025 | ⏳ Planned |
-| Start CompTIA Security+ prep | Roadmap Overview | 27/10/2025 | ⏳ In Progress |
-| Complete Security+ course content | Roadmap Overview | 15/12/2025 | ⏳ In Progress |
-| Sit Security+ exam | Roadmap Overview | 20/12/2025 | ⏳ In Progress |
+| Complete Machine Learning Specialization (Andrew Ng) | Roadmap Overview | 18/12/2025 | ⏳ In Progress |
+| Complete Meta Front-End Developer | Roadmap Overview | 13/12/2025 | ⏳ Planned |
+| Complete Meta React Native Specialization | Roadmap Overview | 12/01/2026 | ⏳ Planned |
+| Start CompTIA Security+ prep | Roadmap Overview | 25/11/2025 | ⏳ In Progress |
+| Complete Security+ course content | Roadmap Overview | 12/01/2026 | ⏳ In Progress |
+| Sit Security+ exam | Roadmap Overview | 17/01/2026 | ⏳ In Progress |
 
 
 ---
