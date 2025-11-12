@@ -8,7 +8,7 @@ Course 2: Advanced Learning Algorithms → Course 3: Unsupervised Learning, Reco
 
 - **Status:** active (Active)
 - **Focus:** Course 2: Advanced Learning Algorithms → Course 3: Unsupervised Learning, Recommenders, RL → Phishing Classifier - Model Training & Evaluation
-- **Last updated:** 11/11/2025
+- **Last updated:** 12/11/2025
 - **Target completion:** —
 
 ---

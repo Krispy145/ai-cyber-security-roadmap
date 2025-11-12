@@ -1,5 +1,5 @@
 {
-  "updated": "2025-11-11",
+  "updated": "2025-11-12",
   "progress": {
     "learning": 33,
     "backendProjects": 35,
@@ -321,9 +321,10 @@
       "id": "phishing-03",
       "title": "Train and export baseline",
       "category": "AI Engineering Projects",
-      "status": "in_progress",
+      "status": "done",
       "due": "26/10/2025",
-      "repo": "phishing-classifier"
+      "repo": "phishing-classifier",
+      "date": "12/11/2025"
     },
     {
       "id": "phishing-04",
@@ -345,9 +346,10 @@
       "id": "secure-ai-api-01",
       "title": "Stub endpoints",
       "category": "Backend Development",
-      "status": "in_progress",
+      "status": "done",
       "due": "26/10/2025",
-      "repo": "secure-ai-api"
+      "repo": "secure-ai-api",
+      "date": "12/11/2025"
     },
     {
       "id": "secure-ai-api-02",
