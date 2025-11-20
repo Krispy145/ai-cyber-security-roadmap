@@ -339,9 +339,10 @@
       "id": "phishing-05",
       "title": "Secure AI API integration",
       "category": "AI Engineering Projects",
-      "status": "in_progress",
+      "status": "done",
       "due": "30/11/2025",
-      "repo": "phishing-classifier"
+      "repo": "phishing-classifier",
+      "date": "20/11/2025"
     },
     {
       "id": "secure-ai-api-01",
@@ -365,9 +366,10 @@
       "id": "secure-ai-api-03",
       "title": "RAG endpoint implementation",
       "category": "Backend Development",
-      "status": "in_progress",
+      "status": "done",
       "due": "30/11/2025",
-      "repo": "secure-ai-api"
+      "repo": "secure-ai-api",
+      "date": "20/11/2025"
     },
     {
       "id": "secure-ai-api-04",
