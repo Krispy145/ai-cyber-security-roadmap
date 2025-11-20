@@ -1,5 +1,5 @@
 {
-  "updated": "2025-11-12",
+  "updated": "2025-11-20",
   "progress": {
     "learning": 33,
     "backendProjects": 35,
@@ -12,7 +12,7 @@
     "current": "Course 2: Advanced Learning Algorithms",
     "next": "Course 3: Unsupervised Learning, Recommenders, RL",
     "then": "Phishing Classifier - Model Training & Evaluation",
-    "security_prep_start": "18/11/2025"
+    "security_prep_start": "22/11/2025"
   },
   "repositories": [
     {
@@ -29,7 +29,7 @@
         "scikit-learn"
       ],
       "status": "active",
-      "target": "20/11/2025",
+      "target": "24/11/2025",
       "cover_url": "images/ml-foundations/ml-foundations-cover.webp",
       "thumbnail_url": "images/ml-foundations/ml-foundations-thumb.webp"
     },
@@ -50,7 +50,7 @@
         "testing"
       ],
       "status": "active",
-      "target": "18/11/2025",
+      "target": "22/11/2025",
       "cover_url": "images/phishing-classifier/phishing-classifier-cover.webp",
       "thumbnail_url": "images/phishing-classifier/phishing-classifier-thumb.webp"
     },
@@ -69,7 +69,7 @@
         "github-actions"
       ],
       "status": "active",
-      "target": "19/11/2025",
+      "target": "23/11/2025",
       "cover_url": "images/secure-ai-api/secure-ai-api-cover.webp",
       "thumbnail_url": "images/secure-ai-api/secure-ai-api-thumb.webp"
     },
@@ -87,7 +87,7 @@
         "vector-db"
       ],
       "status": "scaffolded",
-      "target": "18/11/2025",
+      "target": "22/11/2025",
       "cover_url": "images/flutter-ai-chat-rag/flutter-ai-chat-rag-cover.webp",
       "thumbnail_url": "images/flutter-ai-chat-rag/flutter-ai-chat-rag-thumb.webp"
     },
@@ -106,7 +106,7 @@
         "security"
       ],
       "status": "scaffolded",
-      "target": "18/11/2025",
+      "target": "22/11/2025",
       "cover_url": "images/flutter-iam-package/flutter-iam-package-cover.webp",
       "thumbnail_url": "images/flutter-iam-package/flutter-iam-package-thumb.webp"
     },
@@ -125,7 +125,7 @@
         "testing"
       ],
       "status": "scaffolded",
-      "target": "18/11/2025",
+      "target": "22/11/2025",
       "cover_url": "images/flutter-api-showcase/flutter-api-showcase-cover.webp",
       "thumbnail_url": "images/flutter-api-showcase/flutter-api-showcase-thumb.webp"
     },
@@ -145,7 +145,7 @@
         "responsive-design"
       ],
       "status": "active",
-      "target": "18/11/2025",
+      "target": "22/11/2025",
       "cover_url": "images/react-phishing-dashboard/react-phishing-dashboard-cover.webp",
       "thumbnail_url": "images/react-phishing-dashboard/react-phishing-dashboard-thumb.webp"
     },
@@ -163,7 +163,7 @@
         "rag"
       ],
       "status": "scaffolded",
-      "target": "19/11/2025",
+      "target": "23/11/2025",
       "cover_url": "images/react-native-chat-rag/react-native-chat-rag-cover.webp",
       "thumbnail_url": "images/react-native-chat-rag/react-native-chat-rag-thumb.webp"
     },
@@ -180,7 +180,7 @@
         "jwt"
       ],
       "status": "scaffolded",
-      "target": "19/11/2025",
+      "target": "23/11/2025",
       "cover_url": "images/react-native-api-showcase/react-native-api-showcase-cover.webp",
       "thumbnail_url": "images/react-native-api-showcase/react-native-api-showcase-thumb.webp"
     },
@@ -199,7 +199,7 @@
         "secure-store"
       ],
       "status": "scaffolded",
-      "target": "19/11/2025",
+      "target": "23/11/2025",
       "cover_url": "images/react-native-iam-package/react-native-iam-package-cover.webp",
       "thumbnail_url": "images/react-native-iam-package/react-native-iam-package-thumb.webp"
     },
@@ -262,7 +262,7 @@
       "title": "Complete Course 2: Advanced Learning Algorithms",
       "category": "Machine Learning Specialization",
       "status": "in_progress",
-      "due": "01/12/2025",
+      "due": "05/12/2025",
       "repo": "ml-foundations"
     },
     {
@@ -270,7 +270,7 @@
       "title": "Complete Course 3: Unsupervised Learning, Recommenders, RL",
       "category": "Machine Learning Specialization",
       "status": "planned",
-      "due": "12/01/2026",
+      "due": "16/01/2026",
       "repo": "ml-foundations"
     },
     {
@@ -278,7 +278,7 @@
       "title": "Complete Machine Learning Specialization (Andrew Ng)",
       "category": "Machine Learning Specialization",
       "status": "planned",
-      "due": "18/12/2025",
+      "due": "22/12/2025",
       "repo": "ml-foundations"
     },
     {
@@ -331,7 +331,7 @@
       "title": "Model evaluation suite",
       "category": "AI Engineering Projects",
       "status": "in_progress",
-      "due": "18/11/2025",
+      "due": "30/11/2025",
       "repo": "phishing-classifier"
     },
     {
@@ -339,7 +339,7 @@
       "title": "Secure AI API integration",
       "category": "AI Engineering Projects",
       "status": "in_progress",
-      "due": "22/11/2025",
+      "due": "30/11/2025",
       "repo": "phishing-classifier"
     },
     {
@@ -356,7 +356,7 @@
       "title": "Phishing classifier integration",
       "category": "Backend Development",
       "status": "in_progress",
-      "due": "18/11/2025",
+      "due": "30/11/2025",
       "repo": "secure-ai-api"
     },
     {
@@ -364,7 +364,7 @@
       "title": "RAG endpoint implementation",
       "category": "Backend Development",
       "status": "in_progress",
-      "due": "22/11/2025",
+      "due": "30/11/2025",
       "repo": "secure-ai-api"
     },
     {
@@ -372,7 +372,7 @@
       "title": "Docker + CI/CD setup",
       "category": "Backend Development",
       "status": "in_progress",
-      "due": "26/11/2025",
+      "due": "30/11/2025",
       "repo": "secure-ai-api"
     },
     {
@@ -380,7 +380,7 @@
       "title": "JWT auth + rate limiting",
       "category": "Backend Development",
       "status": "in_progress",
-      "due": "02/12/2025",
+      "due": "06/12/2025",
       "repo": "secure-ai-api"
     },
     {
@@ -413,7 +413,7 @@
       "title": "Integrate Flutter IAM",
       "category": "Flutter App & Packages",
       "status": "in_progress",
-      "due": "18/11/2025",
+      "due": "30/11/2025",
       "repo": "flutter-ai-chat-rag"
     },
     {
@@ -421,7 +421,7 @@
       "title": "Web Demo Deployment",
       "category": "Flutter App & Packages",
       "status": "in_progress",
-      "due": "23/11/2025",
+      "due": "27/11/2025",
       "repo": "flutter-ai-chat-rag"
     },
     {
@@ -438,7 +438,7 @@
       "title": "Core authentication flows",
       "category": "Flutter App & Packages",
       "status": "in_progress",
-      "due": "18/11/2025",
+      "due": "30/11/2025",
       "repo": "flutter-iam-package"
     },
     {
@@ -454,7 +454,7 @@
       "title": "Dio interceptor + route guards",
       "category": "Flutter App & Packages",
       "status": "in_progress",
-      "due": "29/11/2025",
+      "due": "07/12/2025",
       "repo": "flutter-iam-package"
     },
     {
@@ -462,7 +462,7 @@
       "title": "Token rotation + multi-tenant",
       "category": "Flutter App & Packages",
       "status": "in_progress",
-      "due": "03/12/2025",
+      "due": "07/12/2025",
       "repo": "flutter-iam-package"
     },
     {
@@ -470,7 +470,7 @@
       "title": "Documentation + v1.0.0",
       "category": "Flutter App & Packages",
       "status": "in_progress",
-      "due": "08/12/2025",
+      "due": "12/12/2025",
       "repo": "flutter-iam-package"
     },
     {
@@ -478,7 +478,7 @@
       "title": "Pexels/API patterns setup",
       "category": "Flutter App & Packages",
       "status": "in_progress",
-      "due": "18/11/2025",
+      "due": "30/11/2025",
       "repo": "flutter-api-showcase"
     },
     {
@@ -486,7 +486,7 @@
       "title": "Offline caching + pagination",
       "category": "Flutter App & Packages",
       "status": "in_progress",
-      "due": "22/11/2025",
+      "due": "30/11/2025",
       "repo": "flutter-api-showcase"
     },
     {
@@ -494,7 +494,7 @@
       "title": "Secure AI API integration",
       "category": "Flutter App & Packages",
       "status": "in_progress",
-      "due": "25/11/2025",
+      "due": "07/12/2025",
       "repo": "flutter-api-showcase"
     },
     {
@@ -502,7 +502,7 @@
       "title": "Flutter IAM integration",
       "category": "Flutter App & Packages",
       "status": "in_progress",
-      "due": "29/11/2025",
+      "due": "07/12/2025",
       "repo": "flutter-api-showcase"
     },
     {
@@ -562,7 +562,7 @@
       "title": "Streaming chat (SSE/WS)",
       "category": "React Native",
       "status": "in_progress",
-      "due": "22/11/2025",
+      "due": "30/11/2025",
       "repo": "react-native-chat-rag"
     },
     {
@@ -587,7 +587,7 @@
       "title": "Patterns doc + cleanup",
       "category": "React Native",
       "status": "in_progress",
-      "due": "18/11/2025",
+      "due": "30/11/2025",
       "repo": "react-native-api-showcase"
     },
     {
@@ -612,7 +612,7 @@
       "title": "Docs + usage examples",
       "category": "React Native",
       "status": "in_progress",
-      "due": "23/11/2025",
+      "due": "27/11/2025",
       "repo": "react-native-iam-package"
     },
     {
@@ -629,7 +629,7 @@
       "title": "Complete Machine Learning Specialization (Andrew Ng)",
       "category": "Roadmap Overview",
       "status": "in_progress",
-      "due": "18/12/2025",
+      "due": "22/12/2025",
       "repo": "ai-cyber-security-roadmap"
     },
     {
@@ -637,7 +637,7 @@
       "title": "Complete Meta Front-End Developer",
       "category": "Roadmap Overview",
       "status": "planned",
-      "due": "13/12/2025",
+      "due": "17/12/2025",
       "repo": "ai-cyber-security-roadmap"
     },
     {
@@ -645,7 +645,7 @@
       "title": "Complete Meta React Native Specialization",
       "category": "Roadmap Overview",
       "status": "planned",
-      "due": "12/01/2026",
+      "due": "16/01/2026",
       "repo": "ai-cyber-security-roadmap"
     },
     {
@@ -653,7 +653,7 @@
       "title": "Start CompTIA Security+ prep",
       "category": "Roadmap Overview",
       "status": "in_progress",
-      "due": "25/11/2025",
+      "due": "07/12/2025",
       "repo": "ai-cyber-security-roadmap"
     },
     {
@@ -661,7 +661,7 @@
       "title": "Complete Security+ course content",
       "category": "Roadmap Overview",
       "status": "in_progress",
-      "due": "12/01/2026",
+      "due": "16/01/2026",
       "repo": "ai-cyber-security-roadmap"
     },
     {
@@ -669,7 +669,7 @@
       "title": "Sit Security+ exam",
       "category": "Roadmap Overview",
       "status": "in_progress",
-      "due": "17/01/2026",
+      "due": "21/01/2026",
       "repo": "ai-cyber-security-roadmap"
     }
   ],
@@ -682,32 +682,32 @@
     {
       "name": "Phishing Classifier",
       "index": 1,
-      "plannedCompletionDate": "18/11/2025"
+      "plannedCompletionDate": "22/11/2025"
     },
     {
       "name": "Secure AI API",
       "index": 2,
-      "plannedCompletionDate": "26/11/2025"
+      "plannedCompletionDate": "30/11/2025"
     },
     {
       "name": "Flutter App & Packages",
       "index": 3,
-      "plannedCompletionDate": "08/12/2025"
+      "plannedCompletionDate": "12/12/2025"
     },
     {
       "name": "React Web",
       "index": 4,
-      "plannedCompletionDate": "18/11/2025"
+      "plannedCompletionDate": "22/11/2025"
     },
     {
       "name": "React Native",
       "index": 5,
-      "plannedCompletionDate": "23/11/2025"
+      "plannedCompletionDate": "27/11/2025"
     },
     {
       "name": "Backend Development",
       "index": 6,
-      "plannedCompletionDate": "02/12/2025"
+      "plannedCompletionDate": "06/12/2025"
     },
     {
       "name": "AI Engineering Projects",
@@ -717,12 +717,12 @@
     {
       "name": "Roadmap Overview",
       "index": 8,
-      "plannedCompletionDate": "17/01/2026"
+      "plannedCompletionDate": "21/01/2026"
     }
   ],
   "next_milestone": {
     "title": "Complete Course 2: Advanced Learning Algorithms",
-    "due": "01/12/2025",
+    "due": "05/12/2025",
     "id": "ml-05"
   }
 }
