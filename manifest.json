@@ -330,9 +330,10 @@
       "id": "phishing-04",
       "title": "Model evaluation suite",
       "category": "AI Engineering Projects",
-      "status": "in_progress",
+      "status": "done",
       "due": "30/11/2025",
-      "repo": "phishing-classifier"
+      "repo": "phishing-classifier",
+      "date": "20/11/2025"
     },
     {
       "id": "phishing-05",
@@ -355,9 +356,10 @@
       "id": "secure-ai-api-02",
       "title": "Phishing classifier integration",
       "category": "Backend Development",
-      "status": "in_progress",
+      "status": "done",
       "due": "30/11/2025",
-      "repo": "secure-ai-api"
+      "repo": "secure-ai-api",
+      "date": "20/11/2025"
     },
     {
       "id": "secure-ai-api-03",
