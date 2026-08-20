@@ -187,7 +187,7 @@ def get_react_precommit_config() -> str:
     hooks:
       - id: eslint
         files: \\.(js|jsx|ts|tsx)$
-        additional_dependencies: [eslint@8.56.0, @typescript-eslint/eslint-plugin@6.18.1, @typescript-eslint/parser@6.18.1]
+        additional_dependencies: ["eslint@8.56.0", "@typescript-eslint/eslint-plugin@6.18.1", "@typescript-eslint/parser@6.18.1"]
 
   # General hooks
   - repo: https://github.com/pre-commit/pre-commit-hooks
@@ -225,7 +225,7 @@ def get_react_native_precommit_config() -> str:
     hooks:
       - id: eslint
         files: \\.(js|jsx|ts|tsx)$
-        additional_dependencies: [eslint@8.56.0, @typescript-eslint/eslint-plugin@6.18.1, @typescript-eslint/parser@6.18.1]
+        additional_dependencies: ["eslint@8.56.0", "@typescript-eslint/eslint-plugin@6.18.1", "@typescript-eslint/parser@6.18.1"]
 
   # General hooks
   - repo: https://github.com/pre-commit/pre-commit-hooks
