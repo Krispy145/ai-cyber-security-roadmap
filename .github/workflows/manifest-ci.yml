@@ -25,12 +25,12 @@ jobs:
         run: python3 scripts/manifest2readme.py
 
       - name: Update repository READMEs
-        run: python3 scripts/update_readmes.py
+        run: python3 scripts/standardize_readmes.py
 
       - name: Ensure READMEs are committed
         run: |
           if ! git diff --quiet; then
-            echo "::error::README files are out of date. Run python3 scripts/update_readmes.py and commit the result."
+            echo "::error::README files are out of date. Run python3 scripts/standardize_readmes.py and commit the result."
             git --no-pager diff | cat
             exit 1
           fi

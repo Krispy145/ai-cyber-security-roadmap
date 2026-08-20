@@ -122,16 +122,19 @@ def parse_roadmap_table(content: str) -> List[Dict]:
                     milestone['due'] = parts[2]
                     milestone['status'] = parts[3]
                 
-                # Clean up status indicators
+                # Clean up status indicators. Check Planned before the hourglass
+                # emoji — both Planned and In Progress use ⏳ in README tables.
                 status = milestone['status']
                 if '✅' in status or 'Done' in status:
                     milestone['status'] = 'done'
-                elif '⏳' in status or 'Pending' in status or 'In Progress' in status:
+                elif 'Planned' in status:
+                    milestone['status'] = 'planned'
+                elif 'In Progress' in status or 'Pending' in status or '⏳' in status:
                     milestone['status'] = 'in_progress'
-                elif 'Planned' in status or 'Todo' in status:
+                elif 'Todo' in status:
                     milestone['status'] = 'todo'
                 else:
-                    milestone['status'] = 'todo'  # Default
+                    milestone['status'] = 'todo'
                 
                 milestones.append(milestone)
     

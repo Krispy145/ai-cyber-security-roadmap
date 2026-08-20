@@ -101,11 +101,10 @@ def main():
         print("ERROR: Main README update failed")
         sys.exit(1)
     
-    # Step 5: Generate cover images
+    # Step 5: Generate cover images (optional — missing Pillow should not block sync)
     print("\n5. Generating cover images...")
     if not run_script("generate_repo_covers.py", dry_run=args.dry_run):
-        print("ERROR: Cover image generation failed")
-        sys.exit(1)
+        print("WARNING: Cover image generation failed (continuing...)")
     
     # Step 6: Add cover URLs to manifest
     print("\n6. Adding cover URLs to manifest...")

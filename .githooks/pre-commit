@@ -33,11 +33,11 @@ print('✓ manifest.json formatted successfully')
 echo "→ Staging formatted manifest.json..."
 git add manifest.json
 
-echo "→ Checking README generation..."
-python3 scripts/manifest2readme.py
-
-echo "→ Standardizing repository READMEs..."
+echo "→ Standardizing sibling repository READMEs..."
 python3 scripts/standardize_readmes.py
+
+echo "→ Generating hub README from manifest..."
+python3 scripts/manifest2readme.py
 
 echo "→ Adding cover URLs to manifest..."
 python3 scripts/add_cover_urls.py

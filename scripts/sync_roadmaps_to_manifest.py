@@ -125,16 +125,19 @@ def parse_roadmap_table(content: str) -> List[Dict]:
                     milestone['due'] = parts[2]
                     milestone['status'] = parts[3]
                 
-                # Clean up status indicators
+                # Clean up status indicators. Check Planned before the hourglass
+                # emoji — both Planned and In Progress use ⏳ in README tables.
                 status = milestone['status']
                 if '✅' in status or 'Done' in status:
                     milestone['status'] = 'done'
-                elif '⏳' in status or 'Pending' in status or 'In Progress' in status:
+                elif 'Planned' in status:
+                    milestone['status'] = 'planned'
+                elif 'In Progress' in status or 'Pending' in status or '⏳' in status:
                     milestone['status'] = 'in_progress'
-                elif 'Planned' in status or 'Todo' in status:
+                elif 'Todo' in status:
                     milestone['status'] = 'todo'
                 else:
-                    milestone['status'] = 'todo'  # Default
+                    milestone['status'] = 'todo'
                 
                 milestones.append(milestone)
     
@@ -227,8 +230,9 @@ def update_manifest_milestones(manifest: Dict, new_milestones: List[Dict], dry_r
                 changes.append(f"due: {existing.get('due')} -> {new_milestone['due']}")
             
             if new_milestone.get('status') and existing.get('status') != new_milestone['status']:
+                old_status = existing.get('status')
                 existing['status'] = new_milestone['status']
-                changes.append(f"status: {existing.get('status')} -> {new_milestone['status']}")
+                changes.append(f"status: {old_status} -> {new_milestone['status']}")
             
             if changes:
                 updated_count += 1
@@ -281,6 +285,12 @@ def main():
         if not repo_name or repo_name not in REPO_PATHS:
             continue
             
+        # Hub README is a portfolio of every milestone — do not treat those
+        # rows as belonging to ai-cyber-security-roadmap.
+        if repo_name == "ai-cyber-security-roadmap":
+            print(f"Skipping hub README reverse-sync for {repo_name}")
+            continue
+
         repo_path = Path(REPO_PATHS[repo_name])
         milestones = extract_milestones_from_readme(repo_path, repo_name)
         all_milestones.extend(milestones)

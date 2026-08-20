@@ -263,8 +263,15 @@ def get_precommit_config_for_repo(repo_name: str) -> str:
         # Default to Python config
         return get_python_precommit_config()
 
+HUB_REPO = "ai-cyber-security-roadmap"
+
+
 def setup_repo_precommit(repo_name: str, repo_path: Path, dry_run: bool = False) -> bool:
     """Set up pre-commit hooks for a specific repository."""
+    if repo_name == HUB_REPO:
+        print(f"Skipping lint-config overwrite for hub repo {repo_name} (uses .githooks + .pre-commit-config.yaml)")
+        return True
+
     if not repo_path.exists():
         print(f"WARNING: Repository path not found: {repo_path}")
         return False
@@ -291,39 +298,59 @@ def setup_repo_precommit(repo_name: str, repo_path: Path, dry_run: bool = False)
         return False
     
     # Install pre-commit hooks
-    if not run_command(["pre-commit", "install"], repo_path, dry_run):
+    if not run_command(["python3", "-m", "pre_commit", "install"], repo_path, dry_run):
         print(f"ERROR: Failed to install pre-commit hooks for {repo_name}")
         return False
     
     print(f"✅ Installed pre-commit hooks for {repo_name}")
     return True
 
-def install_precommit_main_repo(dry_run: bool = False) -> bool:
-    """Install pre-commit in the main roadmap repository."""
+def install_hub_githooks(dry_run: bool = False) -> bool:
+    """Install the hub repo's custom pre/post-commit sync hooks."""
+    repo_root = Path(".").resolve()
+    hooks_src = repo_root / ".githooks"
+    hooks_dst = repo_root / ".git" / "hooks"
+
     if dry_run:
-        print("WOULD INSTALL pre-commit in main repository")
+        print("WOULD INSTALL pre-commit package")
+        print(f"WOULD COPY {hooks_src}/pre-commit -> {hooks_dst}/pre-commit")
+        print(f"WOULD COPY {hooks_src}/post-commit -> {hooks_dst}/post-commit")
         return True
-    
-    # Install pre-commit if not already installed
+
     try:
-        result = subprocess.run(
+        subprocess.run(
             ["python3", "-m", "pip", "install", "pre-commit"],
             capture_output=True,
             text=True,
             check=True
         )
-        print("✅ Installed pre-commit")
+        print("✅ Installed pre-commit package")
     except subprocess.CalledProcessError as e:
         print(f"ERROR: Failed to install pre-commit: {e}")
         return False
-    
-    # Install pre-commit hooks
-    if not run_command(["pre-commit", "install"], Path("."), dry_run):
-        print("ERROR: Failed to install pre-commit hooks in main repository")
+
+    if not hooks_src.exists():
+        print(f"ERROR: Hub hook scripts not found at {hooks_src}")
         return False
-    
-    print("✅ Installed pre-commit hooks in main repository")
+
+    hooks_dst.mkdir(parents=True, exist_ok=True)
+    for name in ("pre-commit", "post-commit"):
+        src = hooks_src / name
+        dst = hooks_dst / name
+        if not src.exists():
+            print(f"ERROR: Missing hub hook script: {src}")
+            return False
+        dst.write_text(src.read_text(encoding="utf-8"), encoding="utf-8")
+        dst.chmod(0o755)
+        print(f"✅ Installed {name} hook at {dst}")
+
+    print("✅ Installed hub sync hooks (pre-commit + post-commit)")
     return True
+
+
+def install_precommit_main_repo(dry_run: bool = False) -> bool:
+    """Install hub sync hooks and the pre-commit package used by sibling repos."""
+    return install_hub_githooks(dry_run)
 
 def main():
     parser = argparse.ArgumentParser(description='Set up pre-commit hooks for all repositories')
