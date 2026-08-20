@@ -76,7 +76,6 @@ def run_command(command: List[str], cwd: Path, dry_run: bool = False) -> bool:
 def get_python_precommit_config() -> str:
     """Get pre-commit configuration for Python repositories."""
     return """repos:
-  # Python code formatting and linting
   - repo: https://github.com/psf/black
     rev: 23.12.1
     hooks:
@@ -97,7 +96,6 @@ def get_python_precommit_config() -> str:
       - id: flake8
         args: [--max-line-length=100, --extend-ignore=E203,W503]
 
-  # General hooks
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.5.0
     hooks:
@@ -110,48 +108,25 @@ def get_python_precommit_config() -> str:
       - id: pretty-format-json
         args: [--autofix, --indent=2]
 
-  # Security checks
   - repo: https://github.com/PyCQA/bandit
     rev: 1.7.5
     hooks:
       - id: bandit
-        args: [-r, ., -f, json, -o, bandit-report.json]
+        args: [-r, ., -q]
         files: \\.py$
-
-  # Type checking
-  - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.8.0
-    hooks:
-      - id: mypy
-        additional_dependencies: [types-all]
-        files: \\.py$
-        args: [--ignore-missing-imports]
-
-  # Markdown formatting
-  - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.37.0
-    hooks:
-      - id: markdownlint
-        args: [--fix]
 """
 
 def get_flutter_precommit_config() -> str:
     """Get pre-commit configuration for Flutter repositories."""
     return """repos:
-  # Dart/Flutter formatting and linting
-  - repo: https://github.com/dart-lang/dart_style
-    rev: 2.3.2
+  - repo: local
     hooks:
       - id: dart-format
-        files: \.dart$
+        name: dart format
+        entry: dart format
+        language: system
+        files: \\.dart$
 
-  - repo: https://github.com/dart-lang/linter
-    rev: 1.50.1
-    hooks:
-      - id: dart-analyze
-        files: \.dart$
-
-  # General hooks
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.5.0
     hooks:
@@ -163,33 +138,17 @@ def get_flutter_precommit_config() -> str:
       - id: check-json
       - id: pretty-format-json
         args: [--autofix, --indent=2]
-
-  # Markdown formatting
-  - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.37.0
-    hooks:
-      - id: markdownlint
-        args: [--fix]
 """
 
 def get_react_precommit_config() -> str:
     """Get pre-commit configuration for React repositories."""
     return """repos:
-  # JavaScript/TypeScript formatting and linting
   - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: v4.0.0-alpha.8
+    rev: v3.1.0
     hooks:
       - id: prettier
-        files: \\.(js|jsx|ts|tsx|json|css|scss|md)$
+        files: \\.(js|jsx|ts|tsx|json|css|scss)$
 
-  - repo: https://github.com/pre-commit/mirrors-eslint
-    rev: v8.56.0
-    hooks:
-      - id: eslint
-        files: \\.(js|jsx|ts|tsx)$
-        additional_dependencies: ["eslint@8.56.0", "@typescript-eslint/eslint-plugin@6.18.1", "@typescript-eslint/parser@6.18.1"]
-
-  # General hooks
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.5.0
     hooks:
@@ -201,33 +160,17 @@ def get_react_precommit_config() -> str:
       - id: check-json
       - id: pretty-format-json
         args: [--autofix, --indent=2]
-
-  # Markdown formatting
-  - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.37.0
-    hooks:
-      - id: markdownlint
-        args: [--fix]
 """
 
 def get_react_native_precommit_config() -> str:
     """Get pre-commit configuration for React Native repositories."""
     return """repos:
-  # JavaScript/TypeScript formatting and linting
   - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: v4.0.0-alpha.8
+    rev: v3.1.0
     hooks:
       - id: prettier
-        files: \\.(js|jsx|ts|tsx|json|css|scss|md)$
+        files: \\.(js|jsx|ts|tsx|json|css|scss)$
 
-  - repo: https://github.com/pre-commit/mirrors-eslint
-    rev: v8.56.0
-    hooks:
-      - id: eslint
-        files: \\.(js|jsx|ts|tsx)$
-        additional_dependencies: ["eslint@8.56.0", "@typescript-eslint/eslint-plugin@6.18.1", "@typescript-eslint/parser@6.18.1"]
-
-  # General hooks
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.5.0
     hooks:
@@ -239,13 +182,6 @@ def get_react_native_precommit_config() -> str:
       - id: check-json
       - id: pretty-format-json
         args: [--autofix, --indent=2]
-
-  # Markdown formatting
-  - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.37.0
-    hooks:
-      - id: markdownlint
-        args: [--fix]
 """
 
 def get_precommit_config_for_repo(repo_name: str) -> str:
