@@ -1,13 +1,13 @@
 # AI + Cybersecurity Roadmap
 
-![Learning](https://img.shields.io/badge/Learning-33%25-yellow) ![Backend Projects](https://img.shields.io/badge/Backend Projects-35%25-yellow) ![Flutter Projects](https://img.shields.io/badge/Flutter Projects-10%25-orange) ![React Projects](https://img.shields.io/badge/React Projects-45%25-yellowgreen) ![React Native Projects](https://img.shields.io/badge/React Native Projects-5%25-orange) ![Certifications](https://img.shields.io/badge/Certifications-0%25-orange)
+![Learning](https://img.shields.io/badge/Learning-33%25-yellow) ![Backend Projects](https://img.shields.io/badge/Backend Projects-80%25-brightgreen) ![Flutter Projects](https://img.shields.io/badge/Flutter Projects-10%25-orange) ![React Projects](https://img.shields.io/badge/React Projects-45%25-yellowgreen) ![React Native Projects](https://img.shields.io/badge/React Native Projects-5%25-orange) ![Certifications](https://img.shields.io/badge/Certifications-0%25-orange)
 
-_Last updated: 20/08/2026_
+_Last updated: 21/08/2026_
 
 ## 🧠 Current Focus
 - Course 2: Advanced Learning Algorithms ✅
-- Next: JWT auth + rate limiting (Secure AI API)
-- Then: Course 3: Unsupervised Learning, Recommenders, RL
+- Next: Course 3: Unsupervised Learning, Recommenders, RL
+- Then: Flutter IAM core authentication flows
 - Security+: prep starts 31/05/2027
 
 ## 🎯 Next Milestone
@@ -27,7 +27,7 @@ _Last updated: 20/08/2026_
 | [`react-native-chat-rag`](https://github.com/Krispy145/react-native-chat-rag) | Expo + TS: secure token storage, RAG chat screen, Axios interceptors. | react-native, expo, axios, zustand | 🧩 Scaffolded | 31/05/2027 |
 | [`react-native-api-showcase`](https://github.com/Krispy145/react-native-api-showcase) | Expo + TS: auth + sample list from /phishing/samples; clean client patterns. | react-native, expo, axios, zustand | 🧩 Scaffolded | 28/06/2027 |
 | [`react-native-iam-package`](https://github.com/Krispy145/react-native-iam-package) | Zustand + Axios + SecureStore; login/refresh; hook-based API. | react-native, expo, auth, jwt | 🧩 Scaffolded | 05/04/2027 |
-| [`ai-cyber-security-roadmap`](https://github.com/Krispy145/ai-cyber-security-roadmap) | Course 2: Advanced Learning Algorithms → JWT auth + rate limiting (Secure AI API) → Course 3: Unsupervised Learning, Recommenders, RL | portfolio, roadmap, automation, json-manifest | ✅ Active | 30/08/2027 |
+| [`ai-cyber-security-roadmap`](https://github.com/Krispy145/ai-cyber-security-roadmap) | Course 2: Advanced Learning Algorithms → Course 3: Unsupervised Learning, Recommenders, RL → Flutter IAM core authentication flows | portfolio, roadmap, automation, json-manifest | ✅ Active | 30/08/2027 |
 
 ## 🗓 Roadmap
 
@@ -51,7 +51,7 @@ _Last updated: 20/08/2026_
 | Phishing classifier integration | Backend Development | 30/11/2025 | ✅ Done |
 | RAG endpoint implementation | Backend Development | 30/11/2025 | ✅ Done |
 | Docker + CI/CD setup | Backend Development | 30/11/2025 | ✅ Done |
-| JWT auth + rate limiting | Backend Development | 16/11/2026 | ⏳ Planned |
+| JWT auth + rate limiting | Backend Development | 16/11/2026 | ✅ Done |
 | Scaffold repo | Flutter App & Packages | 06/10/2025 | ✅ Done |
 | Streaming RAG UI | Flutter App & Packages | 08/03/2027 | ⏳ Planned |
 | Connect to Secure AI API | Flutter App & Packages | 22/03/2027 | ⏳ Planned |

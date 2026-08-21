@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-20",
+  "updated": "2026-08-21",
   "progress": {
     "learning": 33,
-    "backendProjects": 35,
+    "backendProjects": 80,
     "flutterProjects": 10,
     "reactProjects": 45,
     "reactNativeProjects": 5,
@@ -10,8 +10,8 @@
   },
   "focus": {
     "current": "Course 2: Advanced Learning Algorithms",
-    "next": "JWT auth + rate limiting (Secure AI API)",
-    "then": "Course 3: Unsupervised Learning, Recommenders, RL",
+    "next": "Course 3: Unsupervised Learning, Recommenders, RL",
+    "then": "Flutter IAM core authentication flows",
     "security_prep_start": "31/05/2027"
   },
   "repositories": [
@@ -207,7 +207,7 @@
       "name": "ai-cyber-security-roadmap",
       "url": "https://github.com/Krispy145/ai-cyber-security-roadmap",
       "description": "This roadmap tracker and manifest powering the portfolio",
-      "short_description": "Course 2: Advanced Learning Algorithms → JWT auth + rate limiting (Secure AI API) → Course 3: Unsupervised Learning, Recommenders, RL",
+      "short_description": "Course 2: Advanced Learning Algorithms → Course 3: Unsupervised Learning, Recommenders, RL → Flutter IAM core authentication flows",
       "topics": [
         "portfolio",
         "roadmap",
@@ -384,9 +384,10 @@
       "id": "secure-ai-api-05",
       "title": "JWT auth + rate limiting",
       "category": "Backend Development",
-      "status": "planned",
+      "status": "done",
       "due": "16/11/2026",
-      "repo": "secure-ai-api"
+      "repo": "secure-ai-api",
+      "date": "21/08/2026"
     },
     {
       "id": "flutter-ai-chat-01",
