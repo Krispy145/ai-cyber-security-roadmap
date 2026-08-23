@@ -3,15 +3,15 @@
   "progress": {
     "learning": 33,
     "backendProjects": 100,
-    "flutterProjects": 47,
+    "flutterProjects": 67,
     "reactProjects": 100,
-    "reactNativeProjects": 55,
+    "reactNativeProjects": 73,
     "certifications": 0
   },
   "focus": {
     "current": "Course 2: Advanced Learning Algorithms",
     "next": "Course 3: Unsupervised Learning, Recommenders, RL",
-    "then": "Flutter RAG chat (then RN chat; IdP later)",
+    "then": "Chat web demos, then Okta/Azure (IdP later)",
     "security_prep_start": "31/05/2027"
   },
   "repositories": [
@@ -153,8 +153,8 @@
     {
       "name": "react-native-chat-rag",
       "url": "https://github.com/Krispy145/react-native-chat-rag",
-      "description": "React Native chat client for RAG endpoints",
-      "short_description": "Expo RAG chat after Flutter: IAM login, /v1/rag/query, then streaming.",
+      "description": "React Native RAG chat with JWT login and streaming UI",
+      "short_description": "Expo RAG chat: IAM login, POST /v1/rag/query, streaming UI against Secure AI API.",
       "topics": [
         "react-native",
         "expo",
@@ -163,7 +163,7 @@
         "jwt",
         "rag"
       ],
-      "status": "scaffolded",
+      "status": "active",
       "target": "12/10/2026",
       "cover_url": "images/react-native-chat-rag/react-native-chat-rag-cover.webp",
       "thumbnail_url": "images/react-native-chat-rag/react-native-chat-rag-thumb.webp"
@@ -208,7 +208,7 @@
       "name": "ai-cyber-security-roadmap",
       "url": "https://github.com/Krispy145/ai-cyber-security-roadmap",
       "description": "This roadmap tracker and manifest powering the portfolio",
-      "short_description": "Course 2: Advanced Learning Algorithms → Course 3: Unsupervised Learning, Recommenders, RL → Flutter RAG chat",
+      "short_description": "Course 2: Advanced Learning Algorithms → Course 3: Unsupervised Learning, Recommenders, RL → Chat web demos, then Okta/Azure",
       "topics": [
         "portfolio",
         "roadmap",
@@ -400,6 +400,15 @@
       "date": "23/08/2026"
     },
     {
+      "id": "secure-ai-api-07",
+      "title": "Sample knowledge base for RAG MVP",
+      "category": "Backend Development",
+      "status": "done",
+      "due": "16/11/2026",
+      "repo": "secure-ai-api",
+      "date": "23/08/2026"
+    },
+    {
       "id": "flutter-ai-chat-01",
       "title": "Scaffold repo",
       "category": "Flutter App & Packages",
@@ -412,25 +421,28 @@
       "id": "flutter-ai-chat-02",
       "title": "Streaming RAG UI",
       "category": "Flutter App & Packages",
-      "status": "in_progress",
+      "status": "done",
       "due": "31/08/2026",
-      "repo": "flutter-ai-chat-rag"
+      "repo": "flutter-ai-chat-rag",
+      "date": "23/08/2026"
     },
     {
       "id": "flutter-ai-chat-03",
       "title": "Connect to Secure AI API",
       "category": "Flutter App & Packages",
-      "status": "in_progress",
+      "status": "done",
       "due": "31/08/2026",
-      "repo": "flutter-ai-chat-rag"
+      "repo": "flutter-ai-chat-rag",
+      "date": "23/08/2026"
     },
     {
       "id": "flutter-ai-chat-04",
       "title": "Integrate Flutter IAM",
       "category": "Flutter App & Packages",
-      "status": "in_progress",
+      "status": "done",
       "due": "31/08/2026",
-      "repo": "flutter-ai-chat-rag"
+      "repo": "flutter-ai-chat-rag",
+      "date": "23/08/2026"
     },
     {
       "id": "flutter-ai-chat-05",
@@ -566,17 +578,19 @@
       "id": "rn-chat-rag-02",
       "title": "Login + secure storage",
       "category": "React Native",
-      "status": "planned",
+      "status": "done",
       "due": "21/09/2026",
-      "repo": "react-native-chat-rag"
+      "repo": "react-native-chat-rag",
+      "date": "23/08/2026"
     },
     {
       "id": "rn-chat-rag-03",
-      "title": "RAG chat screen (/rag/query)",
+      "title": "RAG chat screen (/v1/rag/query)",
       "category": "React Native",
-      "status": "planned",
+      "status": "done",
       "due": "28/09/2026",
-      "repo": "react-native-chat-rag"
+      "repo": "react-native-chat-rag",
+      "date": "23/08/2026"
     },
     {
       "id": "rn-chat-rag-04",
