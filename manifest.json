@@ -11,7 +11,7 @@
   "focus": {
     "current": "Course 2: Advanced Learning Algorithms",
     "next": "Course 3: Unsupervised Learning, Recommenders, RL",
-    "then": "Okta/Azure AD integration (Flutter IAM)",
+    "then": "Flutter RAG chat (then RN chat; IdP later)",
     "security_prep_start": "31/05/2027"
   },
   "repositories": [
@@ -76,8 +76,8 @@
     {
       "name": "flutter-ai-chat-rag",
       "url": "https://github.com/Krispy145/flutter-ai-chat-rag",
-      "description": "Flutter RAG chat client with streaming UI",
-      "short_description": "Flutter RAG chat with streaming UI (Riverpod + GetIt), connects to Secure AI API.",
+      "description": "Flutter RAG chat client with JWT login and streaming UI",
+      "short_description": "Flutter RAG chat: flutter_iam login, POST /v1/rag/query, streaming UI against Secure AI API.",
       "topics": [
         "flutter",
         "rag",
@@ -86,8 +86,8 @@
         "websocket",
         "vector-db"
       ],
-      "status": "scaffolded",
-      "target": "19/04/2027",
+      "status": "active",
+      "target": "14/09/2026",
       "cover_url": "images/flutter-ai-chat-rag/flutter-ai-chat-rag-cover.webp",
       "thumbnail_url": "images/flutter-ai-chat-rag/flutter-ai-chat-rag-thumb.webp"
     },
@@ -154,7 +154,7 @@
       "name": "react-native-chat-rag",
       "url": "https://github.com/Krispy145/react-native-chat-rag",
       "description": "React Native chat client for RAG endpoints",
-      "short_description": "Expo + TS: secure token storage, RAG chat screen, Axios interceptors.",
+      "short_description": "Expo RAG chat after Flutter: IAM login, /v1/rag/query, then streaming.",
       "topics": [
         "react-native",
         "expo",
@@ -164,7 +164,7 @@
         "rag"
       ],
       "status": "scaffolded",
-      "target": "31/05/2027",
+      "target": "12/10/2026",
       "cover_url": "images/react-native-chat-rag/react-native-chat-rag-cover.webp",
       "thumbnail_url": "images/react-native-chat-rag/react-native-chat-rag-thumb.webp"
     },
@@ -208,7 +208,7 @@
       "name": "ai-cyber-security-roadmap",
       "url": "https://github.com/Krispy145/ai-cyber-security-roadmap",
       "description": "This roadmap tracker and manifest powering the portfolio",
-      "short_description": "Course 2: Advanced Learning Algorithms → Course 3: Unsupervised Learning, Recommenders, RL → Okta/Azure AD integration (Flutter IAM)",
+      "short_description": "Course 2: Advanced Learning Algorithms → Course 3: Unsupervised Learning, Recommenders, RL → Flutter RAG chat",
       "topics": [
         "portfolio",
         "roadmap",
@@ -412,24 +412,24 @@
       "id": "flutter-ai-chat-02",
       "title": "Streaming RAG UI",
       "category": "Flutter App & Packages",
-      "status": "planned",
-      "due": "08/03/2027",
+      "status": "in_progress",
+      "due": "31/08/2026",
       "repo": "flutter-ai-chat-rag"
     },
     {
       "id": "flutter-ai-chat-03",
       "title": "Connect to Secure AI API",
       "category": "Flutter App & Packages",
-      "status": "planned",
-      "due": "22/03/2027",
+      "status": "in_progress",
+      "due": "31/08/2026",
       "repo": "flutter-ai-chat-rag"
     },
     {
       "id": "flutter-ai-chat-04",
       "title": "Integrate Flutter IAM",
       "category": "Flutter App & Packages",
-      "status": "planned",
-      "due": "05/04/2027",
+      "status": "in_progress",
+      "due": "31/08/2026",
       "repo": "flutter-ai-chat-rag"
     },
     {
@@ -437,7 +437,7 @@
       "title": "Web Demo Deployment",
       "category": "Flutter App & Packages",
       "status": "planned",
-      "due": "19/04/2027",
+      "due": "14/09/2026",
       "repo": "flutter-ai-chat-rag"
     },
     {
@@ -463,7 +463,7 @@
       "title": "Okta/Azure AD integration",
       "category": "Flutter App & Packages",
       "status": "planned",
-      "due": "21/12/2026",
+      "due": "16/11/2026",
       "repo": "flutter-iam-package"
     },
     {
@@ -480,7 +480,7 @@
       "title": "Token rotation + multi-tenant",
       "category": "Flutter App & Packages",
       "status": "planned",
-      "due": "08/02/2027",
+      "due": "30/11/2026",
       "repo": "flutter-iam-package"
     },
     {
@@ -488,7 +488,7 @@
       "title": "Documentation + v1.0.0",
       "category": "Flutter App & Packages",
       "status": "planned",
-      "due": "22/02/2027",
+      "due": "14/12/2026",
       "repo": "flutter-iam-package"
     },
     {
@@ -567,7 +567,7 @@
       "title": "Login + secure storage",
       "category": "React Native",
       "status": "planned",
-      "due": "19/04/2027",
+      "due": "21/09/2026",
       "repo": "react-native-chat-rag"
     },
     {
@@ -575,7 +575,7 @@
       "title": "RAG chat screen (/rag/query)",
       "category": "React Native",
       "status": "planned",
-      "due": "10/05/2027",
+      "due": "28/09/2026",
       "repo": "react-native-chat-rag"
     },
     {
@@ -583,7 +583,7 @@
       "title": "Streaming chat (SSE/WS)",
       "category": "React Native",
       "status": "planned",
-      "due": "31/05/2027",
+      "due": "12/10/2026",
       "repo": "react-native-chat-rag"
     },
     {
