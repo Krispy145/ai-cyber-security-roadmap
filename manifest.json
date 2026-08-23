@@ -1,17 +1,17 @@
 {
-  "updated": "2026-08-21",
+  "updated": "2026-08-23",
   "progress": {
     "learning": 33,
-    "backendProjects": 80,
-    "flutterProjects": 10,
-    "reactProjects": 45,
-    "reactNativeProjects": 5,
+    "backendProjects": 100,
+    "flutterProjects": 47,
+    "reactProjects": 100,
+    "reactNativeProjects": 55,
     "certifications": 0
   },
   "focus": {
     "current": "Course 2: Advanced Learning Algorithms",
     "next": "Course 3: Unsupervised Learning, Recommenders, RL",
-    "then": "Flutter IAM core authentication flows",
+    "then": "Okta/Azure AD integration (Flutter IAM)",
     "security_prep_start": "31/05/2027"
   },
   "repositories": [
@@ -94,8 +94,8 @@
     {
       "name": "flutter-iam-package",
       "url": "https://github.com/Krispy145/flutter-iam-package",
-      "description": "Reusable Flutter package for IAM (Okta / Azure AD)",
-      "short_description": "Flutter OIDC/OAuth2 package: login, token refresh, Dio interceptors.",
+      "description": "Reusable Flutter IAM package (password JWT, Okta / Azure AD)",
+      "short_description": "Flutter IAM: password login against Secure AI API, session restore/refresh, Dio interceptors.",
       "topics": [
         "flutter",
         "oidc",
@@ -105,7 +105,7 @@
         "azure-ad",
         "security"
       ],
-      "status": "scaffolded",
+      "status": "active",
       "target": "22/02/2027",
       "cover_url": "images/flutter-iam-package/flutter-iam-package-cover.webp",
       "thumbnail_url": "images/flutter-iam-package/flutter-iam-package-thumb.webp"
@@ -113,8 +113,8 @@
     {
       "name": "flutter-api-showcase",
       "url": "https://github.com/Krispy145/flutter-api-showcase",
-      "description": "Flutter API demo app (patterns first, Secure AI API later)",
-      "short_description": "Flutter API client patterns: BLoC, Dio, pagination, caching; integrates flutter-iam-package.",
+      "description": "Flutter API demo with Pexels, JWT login, ping, and phishing samples",
+      "short_description": "Flutter showcase: Pexels grid, flutter_iam login, /ping, and phishing samples.",
       "topics": [
         "flutter",
         "bloc",
@@ -122,9 +122,10 @@
         "pagination",
         "caching",
         "hive",
-        "testing"
+        "testing",
+        "jwt"
       ],
-      "status": "scaffolded",
+      "status": "active",
       "target": "14/06/2027",
       "cover_url": "images/flutter-api-showcase/flutter-api-showcase-cover.webp",
       "thumbnail_url": "images/flutter-api-showcase/flutter-api-showcase-thumb.webp"
@@ -170,8 +171,8 @@
     {
       "name": "react-native-api-showcase",
       "url": "https://github.com/Krispy145/react-native-api-showcase",
-      "description": "React Native API patterns demo against Secure AI API",
-      "short_description": "Expo + TS: auth + sample list from /phishing/samples; clean client patterns.",
+      "description": "React Native API demo against Secure AI API and Pexels",
+      "short_description": "Expo + TS: JWT login, Pexels grid, ping dialog, and phishing samples.",
       "topics": [
         "react-native",
         "expo",
@@ -179,7 +180,7 @@
         "zustand",
         "jwt"
       ],
-      "status": "scaffolded",
+      "status": "active",
       "target": "28/06/2027",
       "cover_url": "images/react-native-api-showcase/react-native-api-showcase-cover.webp",
       "thumbnail_url": "images/react-native-api-showcase/react-native-api-showcase-thumb.webp"
@@ -188,7 +189,7 @@
       "name": "react-native-iam-package",
       "url": "https://github.com/Krispy145/react-native-iam-package",
       "description": "Reusable IAM layer for React Native (Expo-friendly)",
-      "short_description": "Zustand + Axios + SecureStore; login/refresh; hook-based API.",
+      "short_description": "Zustand + Axios + SecureStore: login/refresh/logout, session restore, web localStorage.",
       "topics": [
         "react-native",
         "expo",
@@ -198,7 +199,7 @@
         "zustand",
         "secure-store"
       ],
-      "status": "scaffolded",
+      "status": "active",
       "target": "05/04/2027",
       "cover_url": "images/react-native-iam-package/react-native-iam-package-cover.webp",
       "thumbnail_url": "images/react-native-iam-package/react-native-iam-package-thumb.webp"
@@ -207,7 +208,7 @@
       "name": "ai-cyber-security-roadmap",
       "url": "https://github.com/Krispy145/ai-cyber-security-roadmap",
       "description": "This roadmap tracker and manifest powering the portfolio",
-      "short_description": "Course 2: Advanced Learning Algorithms → Course 3: Unsupervised Learning, Recommenders, RL → Flutter IAM core authentication flows",
+      "short_description": "Course 2: Advanced Learning Algorithms → Course 3: Unsupervised Learning, Recommenders, RL → Okta/Azure AD integration (Flutter IAM)",
       "topics": [
         "portfolio",
         "roadmap",
@@ -390,6 +391,15 @@
       "date": "21/08/2026"
     },
     {
+      "id": "secure-ai-api-06",
+      "title": "Localhost CORS for Expo/Flutter web",
+      "category": "Backend Development",
+      "status": "done",
+      "due": "16/11/2026",
+      "repo": "secure-ai-api",
+      "date": "23/08/2026"
+    },
+    {
       "id": "flutter-ai-chat-01",
       "title": "Scaffold repo",
       "category": "Flutter App & Packages",
@@ -443,9 +453,10 @@
       "id": "flutter-iam-02",
       "title": "Core authentication flows",
       "category": "Flutter App & Packages",
-      "status": "planned",
+      "status": "done",
       "due": "07/12/2026",
-      "repo": "flutter-iam-package"
+      "repo": "flutter-iam-package",
+      "date": "23/08/2026"
     },
     {
       "id": "flutter-iam-03",
@@ -459,9 +470,10 @@
       "id": "flutter-iam-04",
       "title": "Dio interceptor + route guards",
       "category": "Flutter App & Packages",
-      "status": "planned",
+      "status": "done",
       "due": "18/01/2027",
-      "repo": "flutter-iam-package"
+      "repo": "flutter-iam-package",
+      "date": "23/08/2026"
     },
     {
       "id": "flutter-iam-05",
@@ -483,9 +495,10 @@
       "id": "flutter-api-showcase-01",
       "title": "Pexels/API patterns setup",
       "category": "Flutter App & Packages",
-      "status": "planned",
+      "status": "done",
       "due": "03/05/2027",
-      "repo": "flutter-api-showcase"
+      "repo": "flutter-api-showcase",
+      "date": "23/08/2026"
     },
     {
       "id": "flutter-api-showcase-02",
@@ -499,17 +512,19 @@
       "id": "flutter-api-showcase-03",
       "title": "Secure AI API integration",
       "category": "Flutter App & Packages",
-      "status": "planned",
+      "status": "done",
       "due": "31/05/2027",
-      "repo": "flutter-api-showcase"
+      "repo": "flutter-api-showcase",
+      "date": "23/08/2026"
     },
     {
       "id": "flutter-api-showcase-04",
       "title": "Flutter IAM integration",
       "category": "Flutter App & Packages",
-      "status": "planned",
+      "status": "done",
       "due": "14/06/2027",
-      "repo": "flutter-api-showcase"
+      "repo": "flutter-api-showcase",
+      "date": "23/08/2026"
     },
     {
       "id": "react-phish-01",
@@ -584,9 +599,19 @@
       "id": "rn-showcase-02",
       "title": "Samples list (/phishing/samples)",
       "category": "React Native",
-      "status": "planned",
+      "status": "done",
       "due": "14/06/2027",
-      "repo": "react-native-api-showcase"
+      "repo": "react-native-api-showcase",
+      "date": "23/08/2026"
+    },
+    {
+      "id": "rn-showcase-04",
+      "title": "IAM login + Pexels grid",
+      "category": "React Native",
+      "status": "done",
+      "due": "14/06/2027",
+      "repo": "react-native-api-showcase",
+      "date": "23/08/2026"
     },
     {
       "id": "rn-showcase-03",
@@ -609,9 +634,10 @@
       "id": "rn-iam-02",
       "title": "Core flows (login/refresh/logout)",
       "category": "React Native",
-      "status": "planned",
+      "status": "done",
       "due": "22/03/2027",
-      "repo": "react-native-iam-package"
+      "repo": "react-native-iam-package",
+      "date": "23/08/2026"
     },
     {
       "id": "rn-iam-03",
