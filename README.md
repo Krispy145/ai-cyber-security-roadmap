@@ -1,18 +1,5 @@
 # AI + Cybersecurity Roadmap
 
-![Learning](https://img.shields.io/badge/Learning-33%25-yellow) ![Backend Projects](https://img.shields.io/badge/Backend Projects-100%25-brightgreen) ![Flutter Projects](https://img.shields.io/badge/Flutter Projects-67%25-green) ![React Projects](https://img.shields.io/badge/React Projects-100%25-brightgreen) ![React Native Projects](https://img.shields.io/badge/React Native Projects-73%25-green) ![Certifications](https://img.shields.io/badge/Certifications-0%25-orange)
-
-_Last updated: 23/08/2026_
-
-## 🧠 Current Focus
-- Course 2: Advanced Learning Algorithms ✅
-- Next: Course 3: Unsupervised Learning, Recommenders, RL
-- Then: Chat web demos, then Okta/Azure (IdP later)
-- Security+: prep starts 31/05/2027
-
-## 🎯 Next Milestone
-**Complete Course 2: Advanced Learning Algorithms** — due **19/10/2026** (`ml-05`)
-
 ## 🗂️ Repository Overview
 
 | Repository | Description | Topics | Status | Target |

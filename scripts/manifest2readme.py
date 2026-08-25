@@ -1,15 +1,5 @@
 #!/usr/bin/env python3
-import json, datetime, sys
-from pathlib import Path
-
-def pct_badge(label, value):
-    v = int(value)
-    if v < 20: color = "orange"
-    elif v < 40: color = "yellow"
-    elif v < 60: color = "yellowgreen"
-    elif v < 80: color = "green"
-    else: color = "brightgreen"
-    return f"![{label}](https://img.shields.io/badge/{label}-{v}%25-{color})"
+import json, datetime
 
 def fmt_date(d):
     if not d: return "—"
@@ -21,19 +11,10 @@ def fmt_date(d):
     except Exception:
         return d
 
-def render_focus(f):
-    lines = []
-    if f.get("current"): lines.append(f"- {f['current']} ✅")
-    if f.get("next"):    lines.append(f"- Next: {f['next']}")
-    if f.get("then"):    lines.append(f"- Then: {f['then']}")
-    if f.get("security_prep_start"):
-        lines.append(f"- Security+: prep starts {fmt_date(f['security_prep_start'])}")
-    return "\n".join(lines) or "- Updating…"
-
 def parse_milestones_flat(m):
     items = []
-    for it in m.get("milestones", []) or []:  # <— changed key
-        if not isinstance(it, dict): 
+    for it in m.get("milestones", []) or []:
+        if not isinstance(it, dict):
             continue
         due = it.get("due") or it.get("date")
         items.append({
@@ -46,27 +27,6 @@ def parse_milestones_flat(m):
             "repo": it.get("repo"),
         })
     return items
-
-def _parse_date_any(d):
-    if not d: return None
-    for fmt in ("%d/%m/%Y","%Y-%m-%d"):
-        try: return datetime.datetime.strptime(d, fmt)
-        except Exception: pass
-    return None
-
-def pick_next_milestone(items):
-    candidates = [x for x in items if x["status"] != "done" and _parse_date_any(x["due_raw"])]
-    candidates.sort(key=lambda x: _parse_date_any(x["due_raw"]))
-    return candidates[0] if candidates else None
-
-def render_upcoming(items, limit=5):
-    upcoming = [x for x in items if x["status"] != "done" and _parse_date_any(x["due_raw"])]
-    upcoming.sort(key=lambda x: _parse_date_any(x["due_raw"]))
-    out = []
-    for it in upcoming[:limit]:
-        repo = f" · `{it['repo']}`" if it["repo"] else ""
-        out.append(f"- [ ] **{it['title']}** — {it['due_fmt']}{repo}")
-    return "\n".join(out) or "_No upcoming milestones._"
 
 def status_emoji(s):
     s = (s or "").lower()
@@ -87,26 +47,7 @@ def main():
     with open("manifest.json", encoding="utf-8") as f:
         m = json.load(f)
 
-    # badges
-    p = m.get("progress", {})
-    badges = " ".join([
-        pct_badge("Learning", p.get("learning", 0)),
-        pct_badge("Backend Projects", p.get("backendProjects", 0)),
-        pct_badge("Flutter Projects", p.get("flutterProjects", 0)),
-        pct_badge("React Projects", p.get("reactProjects", 0)),
-        pct_badge("React Native Projects", p.get("reactNativeProjects", 0)),
-        pct_badge("Certifications", p.get("certifications", 0)),
-    ])
-
-    # focus + milestones
     items = parse_milestones_flat(m)
-    focus_md = render_focus(m.get("focus", {}))
-    next_m = m.get("next_milestone") or {}
-    if not next_m:
-        nm = pick_next_milestone(items)
-        if nm:
-            next_m = {"title": nm["title"], "due": nm["due_raw"], "id": nm["id"]}
-    next_md = f"**{next_m.get('title','')}** — due **{fmt_date(next_m.get('due'))}** (`{next_m.get('id','')}`)" if next_m else "_None_"
 
     # repo table
     rows = []
@@ -125,16 +66,6 @@ def main():
     ])
 
     readme = f"""# AI + Cybersecurity Roadmap
-
-{badges}
-
-_Last updated: {fmt_date(m.get('updated'))}_
-
-## 🧠 Current Focus
-{focus_md}
-
-## 🎯 Next Milestone
-{next_md}
 
 ## 🗂️ Repository Overview
 
